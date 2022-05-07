@@ -30,6 +30,7 @@ grains.addEventListener("mouseenter",changeShape);
 function size(){     // increases size for 1st image
     let increase=document.getElementById('grains');
 increase.style.width=("100%");
+increase.style.transitionDuration="800ms";
 }
 let increase=document.getElementById("grains");
 increase.addEventListener("mouseleave",size);
@@ -47,6 +48,7 @@ legume.addEventListener("mouseenter",changeSize);
 function sizesecond(){     // increases size for 2nd image
     let increasedsecond=document.getElementById('legume');
     increasedsecond.style.width=("100%");
+    increasedsecond.style.transitionDuration="800ms"
 }
 let decreasesecond=document.getElementById("legume");
 decreasesecond.addEventListener("mouseleave",sizesecond);
@@ -65,6 +67,7 @@ vegetables.addEventListener("mouseenter",veggies);
 function sizethird(){  // increases  size for 3rd image
     let  increasedthird=document.getElementById('vegetables');
     increasedthird.style.width=("100%");
+    increasedthird.style.transitionDuration="800ms"
 }
 let increasedthird=document.getElementById('vegetables');
 increasedthird.addEventListener("mouseleave",sizethird);
@@ -82,6 +85,7 @@ greens.addEventListener("mouseenter",greenies);
 function sizefourth(){  // increases size for 4th image
     let increasedfourth=document.getElementById('greens');
     increasedfourth.style.width=("100%");
+    increasedfourth.style.transitionDuration="800ms"
 }
 let increasedfourth=document.getElementById('greens');
 increasedfourth.addEventListener("mouseleave",sizefourth);
@@ -98,7 +102,8 @@ wheat.addEventListener("mouseenter",wheaties);
 
 function sizefifth(){  // increases size for 5th image
     let increasedfifth=document.getElementById('wheat');
-    increasedfifth.style.width=("100%")
+    increasedfifth.style.width=("100%");
+    increasedfifth.style.transitionDuration="800ms" // transition effect
 }
 let  increasedfifth=document.getElementById('wheat');
 increasedfifth.addEventListener("mouseleave",sizefifth);
@@ -116,6 +121,7 @@ barley.addEventListener("mouseenter",barleys);
 function sizesixth(){  // increases size for 6th image
     let increasedsixth=document.getElementById('barley');
     increasedsixth.style.width=("100%");
+    increasedsixth.style.transitionDuration="800ms" // transition effect
 }
 let increasedsixth=document.getElementById('barley');
 increasedsixth.addEventListener("mouseleave",sizesixth);
@@ -133,6 +139,7 @@ tuber.addEventListener("mouseenter",tubers);
 function sizeseventh(){  // increases size for 7th image
     let increasedseventh=document.getElementById('tuber');
     increasedseventh.style.width=("100%");
+    increasedseventh.style.transitionDuration="800ms" // transition effect
 }
 let increasedseventh=document.getElementById('tuber');
 increasedseventh.addEventListener("mouseleave",sizeseventh);
@@ -150,6 +157,7 @@ maize.addEventListener("mouseenter",moreMaize);
 function sizeeight(){  // increases size for 8th image
     let increasedeight=document.getElementById('maize');
     increasedeight.style.width=("100%");
+    increasedeight.style.transitionDuration="800ms" // transition effect
 }
 let increasedeight=document.getElementById('maize');
 increasedeight.addEventListener("mouseleave",sizeeight);
@@ -167,20 +175,10 @@ spices.addEventListener("mouseenter",moreSpice);
 function sizenine(){  // increases size for 9th image
     let increasednine=document.getElementById('spices');
     increasednine.style.width=("100%");
+    increasednine.style.transitionDuration="800ms" // transition effect
 }
 let increasednine=document.getElementById('spices');
 increasednine.addEventListener("mouseleave",sizenine);
-
-
-
-
-
-
-
-
-
-
-
 
 
 
