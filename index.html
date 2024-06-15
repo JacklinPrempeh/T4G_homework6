@@ -21,20 +21,15 @@
            line-height: 25pt;
         }
         .p1 .but2{
-            background-color: rgb(29, 31, 32);
             position: absolute;
-            top: 108%;
+            top: 100%;
             left: 42%;
             font-size: medium;
             margin: 20px;
-            padding: 10pt 10pt;
+            padding: 6pt 6pt;
             border-radius: 30pt;
+            border: 2pt solid black;
             text-decoration: none;
-        }
-
-        button{
-            background-color: rgb(171, 224, 171);
-            border-radius: 30pt;
         }
         .img-text-container{
           text-align: center;
@@ -59,7 +54,7 @@
         color: black;
         }
         .but1{
-            background-color: rgb(29, 31, 32);
+            background-color: aliceblue;
             position: absolute;
             top: 30%;
             left: 50%;
@@ -74,12 +69,12 @@
             background-color:  rgb(206, 248, 142);
             color: white;
         }
-        img{
-            border: 5px double;
+        .img1{
+            border: 2pt solid;
             margin: 10px 20px;
         }
         a{
-            color: white;
+            
             text-decoration: none;
         }
         h3{
@@ -105,18 +100,45 @@
         }
         .parafoot{
             justify-content: center;
+
+        }
+        .nav{
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            padding: 20pt 30pt;
+            background-color: whitesmoke;
+            border-radius: 30pt;
+        }
+        a:hover{
+            background-color: rgb(13, 230, 78);
+            border-style: hidden;
+            padding: 5pt 5pt;
+            color: white;
+            border-radius: 10pt;
+        }
+        .main{
+        height: 50pt;
+        width: 200px;
+        left: 50px;
+        position: absolute;
+        top: 18px;
+        border-radius: 50%;
         }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/products.html">Products</a></li>
-            <li><a href="pages/about.html">about Us</a></li>
-            <li><a href="pages/contacts.html">Contact us</a></li>
-            <li><a href="pages/login.html">Login</a></li>
-            <li><a href="pages/signup.html">Signup</a></li>
+            <div class="nav" id="navbar">
+                <img src="image/main.png" alt="" class="main">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="pages/products.html">Products</a></div>
+                    <div><a href="pages/about.html">about Us</a></div>
+                    <div><a href="pages/contacts.html">Contact us</a></div>
+                    <div><a href="pages/login.html">Login</a></div>
+                        <div><a href="pages/signup.html">Signup</a></div>
+        </div>
         </ul>
     </nav>
    <div class="img-text-container">
@@ -130,15 +152,15 @@
     <a class="but2" href="pages/products.html">Learn more</a>
     </p>
 </div>
-    <img src="image/grains.jpeg" width="300pt">
+    <img src="image/grains.jpeg" width="300pt" class="img1">
     <h3>African Grains</h3>
-    <img src="image/legumes.jpeg"width="300pt">
+    <img src="image/legumes.jpeg"width="300pt" class="img1">
     <h3>African Legumes</h3>
-    <img src="https://th.bing.com/th/id/OIP.7_5e9CenNSqPDNaqN0FHDgHaFi?w=208&h=180&c=7&r=0&o=5&pid=1.7" width="300pt">
+    <img src="https://th.bing.com/th/id/OIP.7_5e9CenNSqPDNaqN0FHDgHaFi?w=208&h=180&c=7&r=0&o=5&pid=1.7" width="300pt" class="img1">
     <h3>African Vegetables</h3>
-    <img src="https://th.bing.com/th/id/OIP.EU7ExKRKyYefKg6oFy9FPgHaE8?w=286&h=191&c=7&r=0&o=5&pid=1.7" width="300pt">
+    <img src="https://th.bing.com/th/id/OIP.EU7ExKRKyYefKg6oFy9FPgHaE8?w=286&h=191&c=7&r=0&o=5&pid=1.7" width="300pt" class="img1">
     <h3>African Leafy Greens</h3>
-    <img src="image/spices.jpeg" width="300pt">
+    <img src="image/spices.jpeg" width="300pt" class="img1">
     <h3>African Spices</h3>
     <h2>NEWSLETTERS</h2>
     <form action="">
@@ -149,11 +171,12 @@
    
    <footer>
     <div class="socials">
-        <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p></div>
+        <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
             <div><i class="fa-brands fa-facebook"></i></div>
             <div><i class="fa-brands fa-twitter"></i></div>
             <div><i class="fa-brands fa-youtube"></i></div>
             <div><i class="fa-brands fa-instagram"></i></div>
+        </div>
         </div>
         </footer>
     

@@ -31,14 +31,14 @@ p{
     line-height: 25pt;
     margin: 20px;
 }
-img{
+.img1{
     border-style: double;
     border-color: rgb(124, 175, 36);
             border: 5px double;
             margin: 10px 20px;
 }
 .button{
-    background-color:rgb(17, 41, 24) ;
+    background-color: aliceblue;
 font-size: medium;
 border-radius: 30pt;
 margin: 10px 20px;
@@ -47,60 +47,85 @@ body{
     background-color:  rgb(206, 248, 142);
 }
 a{
-    color: white;
     text-decoration: none;
 }
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30pt;
+    padding: 20pt 30pt;
+    background-color: whitesmoke;
+    border-radius: 30pt;
+}
+  a:hover{
+    background-color: rgb(13, 230, 78);
+            border-style: hidden;
+            padding: 5pt 5pt;
+            color: white;
+            border-radius: 30pt;
+  }
+  .main{
+    height: 50pt;
+        width: 200px;
+        left: 50px;
+        position: absolute;
+        top: 18px;
+        border-radius: 50%;
+  }
   </style>
 
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">about Us</a></li>
-            <li><a href="contacts.html">Contact us</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Signup</a></li>
+            <div class="nav">
+                <img src="../image/main.png" alt="" class="main">
+            <div><a href="../index.html">Home</a></div>
+            <div><a href="products.html">Products</a></div>
+            <div><a href="about.html">about Us</a></div>
+            <div><a href="contacts.html">Contact us</a></div>
+            <div><a href="login.html">Login</a></div>
+            <div><a href="signup.html">Signup</a></div>
+            </div>
         </ul>
     </nav>
     <h2>Our Raw Food Products</h2>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE71j9aLppaFTMpq0ngJ0BngI-kS6n42R4dA&usqp=CAU" alt="shea" width="500pt">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE71j9aLppaFTMpq0ngJ0BngI-kS6n42R4dA&usqp=CAU" class="img1" alt="shea" width="500pt">
   <h4>Shea Butter</h4> 
   <p><a class="link" href="https://en.wikipedia.org/wiki/Shea_butter" target="blank">Shea Butter </a>is from the <b>shea tree</b> which grows naturally in the wild and  the dry savannah belt of West Africa from Senegal in the west to Sudan in the east, and onto the foothills of the Ethiopian highlands. It occurs in 21 countries across the African continent, namely Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Ethiopia, Eritrea, Ghana, Guinea Bissau, Ivory Coast, Mali, Niger, Nigeria, Senegal, Sierra Leone, South Sudan, Sudan, Togo, Uganda, Democratic Republic of the Congo, Kenya and Guinea.Shea butter is used in cooking at home, used as hair pommades and also as cure to some skin diseases. </p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Shea_butter">Learn more</a></button> 
   <hr>
-  <img src="https://th.bing.com/th/id/OIP.LeXeGC0kbajLkehB76NCggHaFW?w=253&h=181&c=7&r=0&o=5&pid=1.7" alt="cocoyam" width="500pt">
+  <img src="https://th.bing.com/th/id/OIP.LeXeGC0kbajLkehB76NCggHaFW?w=253&h=181&c=7&r=0&o=5&pid=1.7"  class="img1" alt="cocoyam" width="500pt">
   <h4>Cocoyam</h4>
   <p><a class="link" href="https://en.wikipedia.org/wiki/Cocoyam" target="blank">Cocoyams</a> are herbaceous perennial plants belonging to the family Araceae and are grown primarily for their edible roots, although all parts of the plant are edible. Cocoyam may also be referred to as taro, old cocoyam, arrowroot, eddoe, macabo, kontomire or dasheen and originates from the region of Southeast Asia.It is cooked using different methods like boiling, frying,and roasting.</p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Cocoyam">Learn more</a></button>
   <hr>
-  <img  src="https://th.bing.com/th/id/OIP.WE0fbMKMwZuQhrmibFVxnQHaE1?w=275&h=180&c=7&r=0&o=5&pid=1.7" alt="africanstarfruit" width="500pt">
+  <img  src="https://th.bing.com/th/id/OIP.WE0fbMKMwZuQhrmibFVxnQHaE1?w=275&h=180&c=7&r=0&o=5&pid=1.7"  class="img1" alt="africanstarfruit" width="500pt">
   <h4>African Star Apple</h4>
-  <p>The<a class="link" href="https://en.wikipedia.org/wiki/Gambeya_albida" target="blank"> African star apple</a> (Chrysophyllum Albidum) is an indigenous fruit found in  Nigeria and Ghana. It is an unusual fruit that has been proven to have several health benefits. The African star apple is known as Alasa, Alasma mba or Adasa mma in Ghana.</p>
+  <p>The<a class="link" href="https://en.wikipedia.org/wiki/Gambeya_albida" target="blank"> African star apple</a> (Chrysophyllum Albidum) is an indigenous fruit found in  Nigeria and Ghana. It is an unusual fruit that has been proven to have several health benefits. The African star apple is known as Alasa, Alasma mba or Adasa mma in Ghana.It is generally sour with fixed number of seeds designed taking the shape of a star.</p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Gambeya_albida">Learn more</a></button>
   <hr>
-  <img src="https://a-z-animals.com/media/2022/11/iStock-1282865548.jpg" alt="basil" width="500pt">
+  <img src="https://a-z-animals.com/media/2022/11/iStock-1282865548.jpg"  class="img1" alt="basil" width="500pt">
   <h4>Basil Leaves</h4>
   <p><a class="link" href="https://en.wikipedia.org/wiki/Basil" target="blank">Basil</a>, also called great basil, is a culinary herb of the family Lamiaceae. It is a tender plant, and is used in cuisines worldwide.Basil is most commonly used fresh in recipes. In general, it is added last, as cooking quickly destroys the flavor. The fresh herb can be kept for a short time in plastic bags in the refrigerator.You can add Basil to your stew or soup.It is also used as<b> Insecticides and Insect Repellent</b>.</p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Basil">Learn more</a></button>
   <hr>
-  <img src="../image/marula.jpg" width="300pt">
+  <img src="../image/marula.jpg" class="img1" width="300pt">
   <h4>Marula</h4>
-  <p>The <a class="link" href="https://en.wikipedia.org/wiki/Sclerocarya_birrea" target="_blank"></a>  is a medium-sized deciduous fruit, indigenous to the miombo woodlands of Southern Africa, the Sudano-Sahelian range of West Africa, the savannah woodlands of East Africa and Madagascar.Oil extracted from marula is used as skin cosmetics. Their green leaves are eaten to relieve heartburn. The bark contains antihistamines and is also used for cleansing by steeping in boiling water and inhaling the steam. </p>
+  <p>The <a class="link" href="https://en.wikipedia.org/wiki/Sclerocarya_birrea" target="_blank">Marula</a>  is a medium-sized deciduous fruit, indigenous to the miombo woodlands of Southern Africa, the Sudano-Sahelian range of West Africa, the savannah woodlands of East Africa and Madagascar.Oil extracted from marula is used as skin cosmetics. Their green leaves are eaten to relieve heartburn. The bark contains antihistamines and is also used for cleansing by steeping in boiling water and inhaling the steam. </p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Sclerocarya_birrea">Learn more</a></button>
   <hr>
-  <img src="../image/millet.jpg" width="300pt">
+  <img src="../image/millet.jpg" class="img1" width="300pt">
   <h4>Millet</h4>
   <p><a class="link" href="https://en.wikipedia.org/wiki/Millet">Millets</a> are small-grained, annual, warm-weather cereals belonging to the grass family. Millet porridge is a traditional food in some parts of the world.In Africa millet porridge is popularly known as Hausa Koko. In parts of Africa it is mixed with milk and consumed as Brukina. Millet is also the base ingredient for distilled liquor.</p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Millet">Learn more</a></button>
   <hr>
-  <img src="../image/grains of selim.jpg" width="300pt">
+  <img src="../image/grains of selim.jpg" class="img1" width="300pt">
   <h4>Grains of Selim</h4>
-  <p><a class="link"  href="https://en.wikipedia.org/wiki/Grains_of_Selim">Grains of Selim</a> is known very well in Ghana. The Akan call it "hwentia" or "hwentea" the Ewes call it "etso" and the Ga call it "so." Grains of Selim, scientifically known as Xylopia aethiopica, are seeds of an evergreen tree that grows in tropical parts of West and East Africa. It is pod based spice.The outside has a woody dry taste with bitter seeds inside. Perfect for porridges, really flavourful soups or stews.<b>Fun Fact</b> Chew if you have cold or sore throat.It helps alot.</p>
+  <p><a class="link"  href="https://en.wikipedia.org/wiki/Grains_of_Selim">Grains of Selim</a> is known very well in Ghana. The Akan call it "hwentia" or "hwentea" the Ewes call it "etso" and the Ga call it "so." Grains of Selim, scientifically known as Xylopia aethiopica, are seeds of an evergreen tree that grows in tropical parts of West and East Africa. It is pod based spice.The outside has a woody dry taste with bitter seeds inside. Perfect for porridges, really flavourful soups or stews.<br> <i> Fun Fact</i>: Chew if you have cold or sore throat.It helps alot.</p>
   <button class="button"><a href="https://en.wikipedia.org/wiki/Grains_of_Selim">Learn more</a></button>
   <hr>
-  <img src="../image/dawadawa.jpg" width="300pt">
+  <img src="../image/dawadawa.jpg" class="img1" width="300pt">
   <h4>African Locust Bean</h4>
   <p>The <a class="link" href="https://en.wikipedia.org/wiki/Parkia_biglobosa" target="_blank" >African Locust Bean</a> known in Ghana as Dawadawa It is found in a wide range of environments in Africa and is primarily grown for its pods that contain both a sweet pulp and valuable seeds.The seed is first cooked to remove the seed coat and then fermented to produce the desired result. Seeds can then be pounded into powder, then formed into cakes. You can add it to your stew and soup to make it tastier and healthier.</p>
    <button class="button"><a href="https://en.wikipedia.org/wiki/Parkia_biglobosa">Learn more</a></button>
