@@ -34,6 +34,30 @@
             color: white;
             border-radius: 10pt;
         }
+        img{
+            height: 400pt;
+            width: 70%;
+        }
+        .center{
+            height: 400pt;
+            width: 50%;
+            display: flex;
+            gap: 30pt ;
+        }
+.image-form-container{
+    display: flex;
+    gap: 20pt;
+    justify-content: center;
+    t;
+}
+        input{
+            width: 300pt;
+            height: 15pt;
+        }
+        textarea{
+            width: 300pt;
+            height: 80pt;
+        }
     </style>
 </head>
 <body>
@@ -49,15 +73,21 @@
             <div><a href="signup.html">Signup</a></div>
         </div>
         </ul>
-        <h3>This is the contact us page.</h3>
-        <form action="">
-            <div>
-            <label for="full Name">Full Name</label>
-            <input type="text" name="" id="Full name" placeholder="Your Name" required>
+        <div class="image-form-container">
+                <img src="../image/wheat.jpg" alt="">
+            <div class="form" id="form">
+            </div>
+                <div class="center"> 
+        <form action="" id="form">
+            <h3>Contact Us at African Choice.</h3>
+                    <div>       
+                        <div><label for="full Name">Your Name</label> </div>
+                      <input type="text" name="" id="Full name" placeholder="Your Name" required>
+            
         </div>
         <div>
-            <label for="full name">E-mail address</label>
-            <input type="full name" id="full name" placeholder="E-mail" required>
+            <div> <label for="full name">E-mail</label></div>
+            <input type="full name" id="full name" placeholder="Email" required>
         </div>
         <div>
             <textarea name="" id="Your message" cols="30" rows="7" placeholder="Your message" required></textarea>
@@ -66,6 +96,8 @@
             <button type="submit">send</button>
         </div>
         </form>
+    </div>
+</div>
         <p>Want to connect more ? <button><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button></p>
         
         <hr>

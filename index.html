@@ -70,8 +70,11 @@
             color: white;
         }
         .img1{
+            width: 250pt;
+            height: 200pt;
             border: 2pt solid;
             margin: 10px 20px;
+        
         }
         a{
             
@@ -96,7 +99,7 @@
             display: flex;
             justify-content: center;
             gap: 30px;
-            flex-direction: row-reverse;
+            padding: 20pt 30pt;
         }
         .parafoot{
             justify-content: center;
@@ -125,6 +128,35 @@
         top: 18px;
         border-radius: 50%;
         }
+        .div-image{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .newsletters{
+            display: flex;
+            justify-content: center;
+            background-color: indigo;
+            padding: 20pt 30pt;
+            text-align: left;
+        
+            
+        }
+        .form{
+         background-color: aqua;
+         padding: 5pt 10pt;
+         margin: 10px;
+        }
+        .fonts{
+            display: flex;
+            justify-content: flex-end;
+            gap: 50pt;
+        
+        }
+        .signup{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -152,30 +184,68 @@
     <a class="but2" href="pages/products.html">Learn more</a>
     </p>
 </div>
-    <img src="image/grains.jpeg" width="300pt" class="img1">
+<div class="div-image">
+<div>
+    <img src="image/grains.jpeg"  class="img1">
     <h3>African Grains</h3>
-    <img src="image/legumes.jpeg"width="300pt" class="img1">
+</div>
+    <div>
+    <img src="image/legumes.jpeg" class="img1">
     <h3>African Legumes</h3>
-    <img src="https://th.bing.com/th/id/OIP.7_5e9CenNSqPDNaqN0FHDgHaFi?w=208&h=180&c=7&r=0&o=5&pid=1.7" width="300pt" class="img1">
+ </div>
+    <div>
+    <img src="image/vegetable.jpeg"  class="img1">
     <h3>African Vegetables</h3>
-    <img src="https://th.bing.com/th/id/OIP.EU7ExKRKyYefKg6oFy9FPgHaE8?w=286&h=191&c=7&r=0&o=5&pid=1.7" width="300pt" class="img1">
+</div>
+<div>
+    <img src="image/leafy greens.jpeg" class="img1">
     <h3>African Leafy Greens</h3>
-    <img src="image/spices.jpeg" width="300pt" class="img1">
-    <h3>African Spices</h3>
+</div>
+   <div>
+     <img src="image/wheat.jpg"  class="img1">
+    <h3>African Wheat</h3>
+</div>
+    <div>
+        <img src="image/barley.jpg" alt=""  class="img1">
+    <h3>African Barleys</h3>
+</div>
+    <div>
+        <img src="image/tubers.jpg" alt=""  class="img1">
+    <h3>African Tubers</h3>
+</div>
+    <div>
+        <img src="image/maize.jpg" alt=""  class="img1">
+    <h3>African Maize</h3>
+ </div>
+ <div>
+    <img src="image/spices.jpeg"  class="img1">
+   <h3>African Spices</h3>
+</div>
+</div>
+<div class="newsletters">
+    <div>
     <h2>NEWSLETTERS</h2>
-    <form action="">
+    Would you like to receive monthly information about our products and services</div>
+     Sign up here
+<div>
+    <form action="" class="form">
         <label for="email">email</label>
-        <input type="email" name="" id="">
+        <input type="email" name="" id="" required>
+        <button type="submit">signup here</button>
     </form>
+</div>
+    </div>
     <hr>
    
    <footer>
     <div class="socials">
         <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
+            <div class="fonts">
             <div><i class="fa-brands fa-facebook"></i></div>
             <div><i class="fa-brands fa-twitter"></i></div>
             <div><i class="fa-brands fa-youtube"></i></div>
             <div><i class="fa-brands fa-instagram"></i></div>
+            </div>
         </div>
         </div>
         </footer>
