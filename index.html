@@ -94,17 +94,6 @@
         form{
             margin: 10px 20px;
         }
-        .socials{
-            background-color: rgb(61, 57, 57);
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 20pt 30pt;
-        }
-        .parafoot{
-            justify-content: center;
-
-        }
         .nav{
             display: flex;
             justify-content: flex-end;
@@ -151,11 +140,35 @@
         .fonts{
             display: flex;
             justify-content: flex-end;
-            gap: 50pt;
+            gap: 80pt;font: 1.5em bolder;
+
         
         }
         .signup{
-            text-align: center;         
+         display: flex; 
+         justify-content: center; 
+         margin-top: 20pt;     
+        }
+        .socials{
+            display: flex;
+            background-color: rgb(102, 170, 228);
+            gap: 100pt;
+            padding: 20pt 30pt;
+        }
+        .footer-logo{
+            width: 100pt;
+            height: 60pt;
+            border-radius: 50%;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        .logo{
+            width: 100pt;
+            height: 60pt;
+            border-radius: 50%;
+        }
+        .news-footer{background-image: url(image/wheat.jpg);
         }
     </style>
 </head>
@@ -222,11 +235,12 @@
    <h3>African Spices</h3>
 </div>
 </div>
-<div class="newsletters">
+<div class="news-footer">
+ <div class="newsletters">
     <div>
     <h2>NEWSLETTERS</h2>
     Would you like to receive monthl information about our products and services</div>
-     Sign up here
+     <div class="signup">Sign up here</div>
 <div>
     <form action="" class="form">
         <label for="email">email</label>
@@ -234,11 +248,13 @@
         <button type="submit">signup here</button>
     </form>
 </div>
-    </div>
-    <hr>
-   
+ </div>
+
+    
+   <div>
    <footer>
     <div class="socials">
+    <div class="footer-logo"><img class="logo"  src="image/main.png" alt=""></div>
         <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
             <div class="fonts">
             <div><i class="fa-brands fa-facebook"></i></div>
@@ -249,6 +265,8 @@
         </div>
         </div>
         </footer>
+    </div>
+</div>
     
 </body>
 </html>
