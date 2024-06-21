@@ -56,26 +56,34 @@
             display: flex;
             justify-content: flex-end;
             gap: 80pt;font: 1.5em bolder; }
+
             .pages{
                 display: flex;
                 background-color: antiquewhite;
+                justify-content: space-between;
             }
             input{
                 width: 250pt;
             }
-            .form{
+            .fullform{
                 width: 50%;
                 height: 400pt;
+                /* text-align: center; */
+                display: flex;
+                
+                
+        
             }
             .login-font{
                 width: 50%;
             }
 
             .login-font i{
-                font-size: 300px;
+                width: 50%;
+                font-size: 450pt;
                 color: green;
             }
-
+         
     </style>
 </head>
 <body>
@@ -106,10 +114,11 @@
     </nav>
     <div class="pages">
         <div class="login-font"><i class="fa-solid fa-right-to-bracket"></i></a></div>
-        <div class="form">
-            <div>
-        <form>
+        <div class="fullform">
+            
+        <form action="" id="form">
             <h3>This is our login page</h3>
+            <div>
         <label for="E-mail">E-mail</label>
         <input type="email" name="" placeholder="Your email"required>
         </div>
