@@ -10,7 +10,7 @@
             width: auto;
             height: auto;
             margin: 20px 20px;
-            padding: 45pt 30pt;
+            padding: 40pt 30pt;
             border-radius: 30pt;
             border-style: ridge;
            background-color: rgb(105, 158, 94);
@@ -20,17 +20,9 @@
            font-size: larger;
            line-height: 25pt;
         }
-        .p1 .but2{
-            position: absolute;
-            top: 100%;
-            left: 42%;
-            font-size: medium;
-            margin: 20px;
-            padding: 6pt 6pt;
-            border-radius: 30pt;
-            border: 2pt solid black;
-            text-decoration: none;
-        }
+         .but2{
+            text-align: center;
+         }
         .img-text-container{
           text-align: center;
          width: 100%;
@@ -125,17 +117,21 @@
         }
         .newsletters{
             display: flex;
-            justify-content: center;
-            background-color: indigo;
+            justify-content: space-between;
+            background-color: rgb(63, 214, 63);
             padding: 20pt 30pt;
-            text-align: left;
+            margin-top: 20pt;
+            margin-left: 25pt;
+            margin-right: 25pt;
         
             
         }
         .form{
-         background-color: aqua;
-         padding: 5pt 10pt;
-         margin: 10px;
+            display: flex;
+            justify-content: flex-end;
+         background-color: rgb(34, 201, 137);
+         padding: 20pt 10pt;
+        margin-top: 40pt;
         }
         .fonts{
             display: flex;
@@ -147,11 +143,12 @@
         .signup{
          display: flex; 
          justify-content: center; 
-         margin-top: 20pt;     
+         margin-top: 70pt;  
+         font: 1.5em ;   
         }
         .socials{
             display: flex;
-            background-color: rgb(102, 170, 228);
+            background-color: rgb(23, 73, 23);
             gap: 100pt;
             padding: 20pt 30pt;
         }
@@ -192,11 +189,11 @@
      <div class="image-text">
     <h1>Taste the Raw Goodness of Africa</h1></div>
 </div>
-<div>
-    <p class="p1">African food is <b>diverse</b>, and when you are talking about food, the culture comes in too .With over 54 countries and 3,000 ethnic groups, African food has much to offer.In this website, we will explore some fascinating facts about African foods.The food is rich in flavor and reflects the continents varied, <b><u>history</u></b>, geography and cultural <b><u>traditions</u></b> .Bottomline,there are many countries countries in Africa with great food.
-    <a class="but2" href="pages/products.html">Learn more</a>
-    </p>
+<div class="p1">
+    <p>African food is <b>diverse</b>, and when you are talking about food, the culture comes in too .With over 54 countries and 3,000 ethnic groups, African food has much to offer.In this website, we will explore some fascinating facts about African foods.The food is rich in flavor and reflects the continents varied, <b><u>history</u></b>, geography and cultural <b><u>traditions</u></b> .Bottomline,there are many countries countries in Africa with great food.</p>
+   <div  class="but2"><a href="pages/products.html">Learn more</a></div>
 </div>
+
 <div class="div-image">
 <div>
     <img src="image/grains.jpeg"  class="img1">
@@ -240,7 +237,7 @@
     <div>
     <h2>NEWSLETTERS</h2>
     Would you like to receive monthl information about our products and services</div>
-     <div class="signup">Sign up here</div>
+     <div class="signup">Sign up here <i class="fa-solid fa-right-to-bracket"></i></div>
 <div>
     <form action="" class="form">
         <label for="email">email</label>
