@@ -7,22 +7,24 @@
     <style>
 
         body{
-            background-color: rgb(206, 248, 142);
-            /* background-image: url(../image/background.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        } */
+            background-color: greenyellow;
+        a{
+            color: aliceblue;
+        }
+        } 
          h2{
             font-family: cursive;
+            color: whitesmoke;
 
          }
         .bigcontainer2{
-            background-color: whitesmoke;
+            background-color:  rgb(21, 212, 155);
             padding: 20pt 30pt;
             display: flex;
             justify-content: flex-end;
             gap: 30px;
             border-radius: 30pt;
+            
         }
         .aboutbutton{
             background-color: aquamarine;
@@ -32,25 +34,28 @@
         .page{
             display: flex;
         }
-        img{
+        .img1{
             width: 50%;
             height: 300pt;
-            
-    
         }
         .box{
             width: 50%;
         height: 300pt;
-        background-color: rgb(35, 221, 18);
+        background-color: rgba(137, 231, 129, 0.445);
+        border: 2px solid black;
         text-align: center ;
-        font: 1.3em bolder;
+        font: 1.3em ;
         line-height: 25pt;
-        color: aliceblue;
+        color: black;
         font-family: cursive;
         padding-left: 10pt;
         
         }
-        
+        .boxlink{
+            color: darkorchid;
+            
+        }
+    
     
         .about{
            display: flex;
@@ -59,23 +64,43 @@
         }
         .box1{
             background-color: rgb(177, 235, 175);
-            width: 300pt;
+            width: 200pt;
             height: 250pt;
             padding-top: 20pt;
         }
         .rotated-text{
-            font: 2.7em bold;
+            font: 3em bold;
             transform: rotate(-90deg);
-            color: white;
+            color: black;
             font-family: cursive;
-            text-shadow: 5px 5px 20px rgb(17, 216, 50);
+           margin: 50pt;
         }
+        .list{
+            text-align: justify;
+        font: 1.3em ;
+        line-height: 25pt;
+        color: black;
+        font-family: cursive;
+        border: 2px solid rgb(19, 221, 144);
+        padding: 10pt;
         
+        }
+        .boxlink2{
+            color: darkorchid;
+            display: flex;
+            justify-content: center;
+        }
+        .img2{
             width: 400pt;
             height: 270pt;
+            /* padding-top: 20pt; */
+        }
+        /* img{
+            width: 400pt;
+            height: 270pt; */
 
             
-        }
+        /* } */
         a{
             text-decoration: none;
         }
@@ -118,7 +143,8 @@
             display: flex;
             justify-content: flex-end;
             gap: 80pt; 
-            padding-top: 10pt; }
+            padding-top: 10pt;
+         }
 
             .parafoot{
               font-size: larger;
@@ -152,7 +178,7 @@
         </ul>
     </nav>
         <div class="page">
-             <img src="../image/woman.jpeg" alt="">
+             <img class="img1" src="../image/woman.jpeg" alt="">
          <div class="box">
             <h2>OUR MISSION</h2>
            <p>To promote the use of African ingredients that reflects the diversity<br> of African
@@ -161,14 +187,24 @@
               for some specific diseases and sicknesses.<br>Explore rich and local food products
             for all your home-made cuisines.
            </p>
-           <a href="pages/products.html">Learn more</a></div>
+           <a class="boxlink" href="pages/products.html">Learn more</a></div>
          </div>
         </div>
         <div class="about">
            <div class="box1">
             <div class="rotated-text">ABOUT US</div>
         </div>
-            <img class="img2"  src="../image/main.png" alt=""></div> 
+        <div class="list">
+        <h2>What We Offer</h2>
+        <ul>
+        <li>Cultural Exploration: Explore the rich taste of African cuisine using our products.</li>
+        <li> Marketplace: Discover and purchase authentic African ingredients, spices, and special products directly
+             from local farmers and producers.
+         <li> Community Engagement: Join a vibrant community of African food enthusiasts.</li>
+       </ul>
+      <div class="boxlink2"> <a class="boxlink2" href="pages/signup.html">Join us</a></div>
+    </div>
+            <img class="img2"  src="../image/main.png" alt="">
         </div>
     <div>
         <footer>
@@ -176,11 +212,11 @@
          <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
              <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
                  <div class="fonts">
-                 <div><i class="fa-brands fa-facebook"></i></div>
-                 <div><i class="fa-brands fa-twitter"></i></div>
-                 <div><i class="fa-brands fa-youtube"></i></div>
-                 <div><i class="fa-brands fa-instagram"></i></div>
-                 <div><i class="fa-brands fa-linkedin"></i></div>
+                 <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                 <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                 <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+                 <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                 <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
                  </div>
              </div>
              </div>
