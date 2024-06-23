@@ -8,6 +8,9 @@
         body{
             background-color:  rgb(206, 248, 142);
         }
+        h3{
+            font: 2em cursive;
+        }
         .nav{
             display: flex;
             justify-content: flex-end;
@@ -75,18 +78,38 @@
                 display: flex;
                 background-color: antiquewhite;
                 justify-content: space-between;
+                border-radius: 20pt;
             }
             input{
-                width: 250pt;
+                width: 200pt;
+                height: 15pt;
+                padding: 0 15pt;
+                border: 1px solid coral;
             }
             .fullform{
                 width: 50%;
                 height: 400pt;
                 /* text-align: center; */
                 display: flex;
+                margin-top: 70pt;
+            
                 
-                
-        
+            }
+            .mainform{
+                height: 45px;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .formbutton{
+                width: 230pt;
+                height: 20pt;
+                font-size: 16px;
+            border-radius:  6px;
+            background-color: darkcyan;
+            }
+            .account{
+                color: darkblue;
+                line-height: 20pt;
             }
             .login-font{
                 width: 50%;
@@ -131,24 +154,30 @@
         <div class="fullform">
             
         <form action="" id="form">
-            <h3>This is our login page</h3>
+            <h3>Login to African Choice</h3>
             <div>
-        <label for="E-mail">E-mail</label>
-        <input type="email" name="" placeholder="Your email"required>
+                <div class="mainform">
+        <div><label for="E-mail">E-mail</label></div>
+        <input type="email" name="" placeholder="Your email"required></div>
         </div>
         <div>
-        <label for="Password">password</label>
-        <input type="password" name="" placeholder="Your password" required>
+        <div class="mainform">
+        <div><label for="Password">password</label></div>
+       <input type="password" name="" required></div>
         </div>
-        <div>
-       <button type="submit">submit</button>
+        <div class="formlink">
+            <a class="account" href="">forgot your Password?</a>
+        </div>
+        Keep me logged in<input type="checkbox" name="">
+        <div class="mainform">
+       <button class="formbutton" type="submit">submit</button>
     </div>
+    Don't have an account?
+      <div ><a class="account" href="signup.html">Create a free account</a></div>
         </form>
     </div>
 </div>
     </div>
-        <button><a href="signup.html">click here</a></button>
-        <hr>
         <div>
             <footer>
              <div class="socials">
