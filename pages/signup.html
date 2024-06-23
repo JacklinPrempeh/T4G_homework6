@@ -19,6 +19,33 @@
         padding: 20pt 30pt;
         background-color:  rgb(21, 212, 155);
       }
+      .page{
+        background-color: greenyellow;
+        height: 550pt;
+        width: 300pt;
+    margin-left: 35%;
+      
+      }
+      .form{
+        padding-top: 20pt;
+        padding-left: 20pt;
+        line-height: 25pt;
+      }
+      input{
+                width: 200pt;
+                height: 20pt;
+                padding: 0 20pt;
+                border: 1px solid coral;
+            
+              }
+                .formbutton{
+                width: 230pt;
+                height: 20pt;
+                font-size: 16px;
+            border-radius:  6px;
+            background-color: darkcyan;
+            margin-top: 20pt;
+          }
       .signupbutton{
         background-color: aquamarine;
             border-radius: 10pt;
@@ -97,8 +124,11 @@
     </ul>
     </nav>
   </div>
-    <h3>This is our signup page.</h3>
+      <div class="page">
+  
+    <div class="form">
     <form>
+      <h3>This is our signup page.</h3>
         <div>
         <label for="First Name">First Name</label>
         <input type="text" placeholder="First Name" required>
@@ -108,7 +138,7 @@
         <input type="text" placeholder="Last Name" required>
        </div>
        <div>
-        <label for="Phone">Phone</label>
+        <div><label for="Phone">Phone</label></div>
         <input type="tel" name="" placeholder="tel" required>
        </div>
        <div>
@@ -116,19 +146,23 @@
         <input type="date" name="" id="" required>
       </div>
       <div>
-        <label for="E-mail">E-mail</label>
+        <div><label for="E-mail">E-mail</label></div>
         <input type="email" name="" placeholder="Your email" required>
       </div>
       <div>
-        <label for="password">password</label>
+        <div><label for="password">password</label></div>
         <input type="password" name="" placeholder="" required>
       </div>
       <div>
         <label for="Re-enter">Re-enter Password </label>
         <input type="password" name="" placeholder="">
       </div>
-      <button type="submit">submit</button>
+      By clicking Join now, you agree to privacy policy.
+      <button class="formbutton" type="submit">Join now</button>
+      <div>Already have an account?<a href="login.html">   login here</a></div>
     </form>
+  </div>
+  </div>
     <hr>
     <div>
       <footer>
