@@ -1,0 +1,9 @@
+#extra{
+    background-color: aliceblue;
+    color: rgb(7, 14, 20);
+    padding: 10pt;
+    border-radius: 10pt;
+}
+#more{
+    display: none;
+}
