@@ -1,8 +1,9 @@
-function moreimages(){
-    let m=document.getElementById(more);
-    m.style.display=('block')
+function changecolor(){
+    let m=document.getElementById("more");
+    m.style.display=('block');
+    
 
 }
 
 let extraone=document.getElementById('extra');
-extraone.addEventListener('click',moreimages);
+extraone.addEventListener("dblclick",changecolor); 
