@@ -1,8 +1,5 @@
-.extras{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#extra{
+    margin-left: 40%;
 }
 button{
     background-color: aliceblue;
@@ -10,4 +7,7 @@ button{
     padding: 10pt;
     border-radius: 10pt;
     width: 100pt;
+}
+#photo{
+    display: none;
 }

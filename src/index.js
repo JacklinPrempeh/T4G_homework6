@@ -70,3 +70,19 @@ function tubers(){
 let tuber=document.getElementById('wheat');
 tuber.addEventListener("mouseenter",tubers);
 
+function loadMore(){
+ let reveal= document.getElementById("photo");
+    reveal.style.display=("block");
+    reveal.style.display=("flex");
+    reveal.style.flexWrap="wrap";
+    reveal.style.flexWrap="space-between";
+    let missing =document.getElementById("extra");
+    missing.style.display="none";
+}
+
+let extra=document.getElementById("extra");
+extra.addEventListener("click",loadMore);
+
+
+
+let close=document.getElementById("m")
