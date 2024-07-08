@@ -13,10 +13,10 @@
         text-align: center;
     }
     h4{
-        background-color: rgb(135, 236, 135);
+        text-align: center;
         color: white;
         font: 2em sans-serif;
-        padding: 10pt 20pt;
+        /* padding: 10pt ; */
         margin: 20px 10px;
         border-radius: 10pt;
     }
@@ -33,10 +33,10 @@ p{
     margin: 20px;
 }
 .img1{
-    border-style: double;
+  width:355pt;
+  height: 200pt;
     border-color: rgb(124, 175, 36);
-            border: 5px double;
-            margin: 10px 20px;
+            /* margin: 10px 20px; */
 }
 .button{
     background-color: gray;
@@ -45,7 +45,8 @@ border-radius: 30pt;
 margin: 10px 20px;
 }
 body{
-    background-color:  rgb(206, 248, 142);
+  background-color: antiquewhite;
+    
 }
 a{
     text-decoration: none;
@@ -58,6 +59,17 @@ a{
     padding: 20pt 30pt;
     background-color:  rgb(21, 212, 155);
     border-radius: 30pt;
+}
+.first{
+  display: flex;
+  gap: 50pt;
+  width: 300pt;
+  height: 300pt;
+  
+}
+.talk{
+  border: 2pt solid black;
+  border-radius: 50%;
 }
 
 /* .selected{
@@ -94,9 +106,20 @@ a{
       }
 
       .subcontent{
-        border: 1px solid black;
+        background-color: aqua;
         width: 30%;
         margin-bottom: 30pt;
+      }
+      .little{
+        width: 100pt;
+        height: 70pt;
+        border-radius: 50%;
+        
+      }
+      .back{
+        width: 300pt;
+        height: 400pt;
+        border-radius: 50%;
       }
       .socials{
             display: flex;
@@ -143,10 +166,15 @@ a{
             </div>
         </ul>
     </nav>
+    <div class="first">
+    <img  class="talk" src="../image/talking fruits.jpg" alt="">
+    <img  class="talk" src="../image/talking veggies.jpg" alt="">
+    <img  class="talk"   src="../image/talkingfruits and veggies.jpg" alt="">
+  </div>
     <h2>Our Raw Food Products</h2>
     <div class="content">
         <div class="subcontent">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE71j9aLppaFTMpq0ngJ0BngI-kS6n42R4dA&usqp=CAU" class="img1" alt="shea" width="300pt">
+          <img src="../image/shea2.jpg" class="img1" alt="shea" width="300pt">
           <div class="para-content"> 
             <h4>Shea Butter</h4> 
             <p><a class="link" href="https://en.wikipedia.org/wiki/Shea_butter" target="blank">Shea Butter </a>is from the <b>shea tree</b> 
@@ -161,7 +189,7 @@ a{
         </div> 
   
         <div class="subcontent">
-          <img src="https://th.bing.com/th/id/OIP.LeXeGC0kbajLkehB76NCggHaFW?w=253&h=181&c=7&r=0&o=5&pid=1.7"  class="img1" alt="cocoyam" width="300pt">
+          <img src="../image/cocoyammain.jpg"      class="img1" alt="cocoyam" width="300pt">
           <div class="para-content"><h4>Cocoyam</h4>
             <p><a class="link" href="https://en.wikipedia.org/wiki/Cocoyam" target="blank">Cocoyams</a> are herbaceous perennial plants belonging to the family 
               Araceae and are grown primarily for their edible roots, although all parts of the plant are edible. Cocoyam may also be referred to as taro, old cocoyam, 
@@ -170,10 +198,11 @@ a{
             </p>
             <button class="button"><a href="https://en.wikipedia.org/wiki/Cocoyam">Learn more</a></button>
           </div>
+          <img  class="little" src="../image/cocoyam2.jpg" alt="">
       </div>
   
       <div class="subcontent">
-        <img  src="https://th.bing.com/th/id/OIP.WE0fbMKMwZuQhrmibFVxnQHaE1?w=275&h=180&c=7&r=0&o=5&pid=1.7"  class="img1" alt="africanstarfruit" width="300pt">
+        <img  src="../image/african star apple.jpeg"  class="img1" alt="africanstarfruit" width="300pt">
         <div class="para-content">
           <h4>African Star Apple</h4>
           <p>The<a class="link" href="https://en.wikipedia.org/wiki/Gambeya_albida" target="blank"> African star apple</a> (Chrysophyllum Albidum) is an indigenous 
@@ -183,7 +212,7 @@ a{
           <button class="button"><a href="https://en.wikipedia.org/wiki/Gambeya_albida">Learn more</a></button>
         </div>
       </div>
-      <div  class="subcontent"><img src="https://a-z-animals.com/media/2022/11/iStock-1282865548.jpg"  class="img1" alt="basil" width="300pt">
+      <div  class="subcontent"><img src="../image/basil2.jpg"  class="img1" alt="basil" width="300pt">
         <div class="para-content"> 
           <h4>Basil Leaves</h4>
           <p><a class="link" href="https://en.wikipedia.org/wiki/Basil" target="blank">Basil</a>, also called great basil, is a culinary herb of the family Lamiaceae.
@@ -230,6 +259,7 @@ a{
         <button class="button"><a href="https://en.wikipedia.org/wiki/Grains_of_Selim">Learn more</a></button>
       </div>
     </div>
+    <div><img  class="back"  src="../image/background.jpg" alt=""></div>
     <div class="subcontent">
       <img src="../image/dawadawa.jpg" class="img1" width="300pt">
       <div class="para-content">

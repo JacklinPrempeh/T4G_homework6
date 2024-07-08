@@ -31,7 +31,6 @@
         }
          .but2{
             text-align: center;
-            color: darkorchid;
          }
         .img-text-container{
           text-align: center;
@@ -39,31 +38,31 @@
         height: auto;
         position: relative;
         }
-        .img-text-container img{
+        /* .img-text-container img{
             width: 500pt;
             height: auto;
             border-width: 50%;
             border: 3px rgb(243, 245, 243);
             border-style: double;
-            border-radius: 30pt;
-        }
-        .img-text-container .image-text{
-        position: absolute;
-        top: 15%;
+            border-radius: 30pt; */
+        /* } */
+        /* .img-text-container .image-text{
+        position: relative;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-style: normal;
-        color: black;
-        }
+        color: black; */
+        /* } */
         .button{
             color: darkblue;
+            padding: 5pt;
         }
         .but1{
-            background-color: aquamarine;
+            background-color: rgb(9, 78, 55);
             position: absolute;
-            /* top: 30%; */
             left: 54%;
-            margin-top: 215pt;
+            margin-top: 220pt;
             transform: translate(-50%, -50%);
             font-size: large;
             border-radius: 30pt;
@@ -76,7 +75,7 @@
             color: white;
         }
         .img1{
-            width: 250pt;
+            width: 300pt;
             height: 200pt;
             border: 2pt solid;
             margin: 10px 20px;
@@ -92,6 +91,11 @@
           text-decoration-line: overline;
           text-shadow: 5px 5px 5px black;
         }
+        h1{
+       text-align: center;
+       color: black;
+       font-family: cursive;
+        }
         footer{
             margin: 10px 20px;
             padding: 10pt 10pt;
@@ -99,9 +103,7 @@
         h2{
             margin: 10px 20px;  
         }
-        form{
-            margin: 10px 20px;
-        }
+    
         .nav{
             display: flex;
             justify-content: flex-end;
@@ -128,12 +130,13 @@
         }
         .div-image{
             display: flex;
+        
             flex-wrap: wrap;
             justify-content: center;
             justify-content: space-around;
         }
         .newsletters{
-            background-image: url(image/wheat.jpg)
+            background-image: url(image/background2.jpg)
             ;
             background-repeat: no-repeat;
             background-size: cover;
@@ -160,10 +163,12 @@
             display: flex;
             justify-content: flex-end;
          background-color: wheat;
-         padding: 20pt 10pt;
-        margin-top: 40pt;
-        color: black;
+         padding: 10pt 10pt;
+        margin-top: 60pt;
         border-radius: 10pt;
+        width: 250pt;
+        height: 20pt;
+        gap: 5pt;
         }
         .fonts{
             display: flex;
@@ -217,9 +222,10 @@
         </div>
         </ul>
     </nav>
+    <h1 id="head">Welcome to African Choice</h1>
    <div class="img-text-container">
-    <img src="image/africanchoice.jpg" width="500pt">
-    <a class="but1" href="pages/products.html">Explore our Products</a>
+    <video  autoplay=""   loop="" src="src/harvestzone.mp4" width="700pt"></video>
+    <a class="but1" id="linking"  href="pages/products.html">Explore our Products</a>
      <!-- <div class="image-text">
     <h1>Taste the Raw Goodness of Africa</h1></div> -->
 </div>
@@ -228,7 +234,7 @@
    <div  class="but2"><a class="button" href="pages/products.html">Learn more</a></div>
 </div>
 
-<div class="div-image">
+<div class="div-image" id="photo">
 <div class="photos">
     <img src="image/grains.jpeg"  class="img1">
     <h3>African Grains</h3>
@@ -266,8 +272,8 @@
    <h3>African Spices</h3>
 </div>
 </div>
-<div class="extras">
-<button id="extra">Show more images</button>
+<div class="extras" id="extra">
+<button >Show more images</button>
 </div>
 <div class="news-footer">
  <div class="newsletters">
