@@ -41,11 +41,9 @@
             color: white;
             border-radius: 10pt;
         }
-        img{
-            height: 400pt;
-            width: 60%;
-        }
+    
         .center{
+            background-color: aquamarine;
             height: 400pt;
             width: 40%;
             display: flex;
@@ -54,8 +52,8 @@
             gap: 30pt ;
             height: 45px;
                 width: 50%;
-                margin-top: 100px;
-                text-align: justify;
+                margin-top: 170px;
+                /* text-align: justify; */
         }
 .image-form-container{
     display: flex;
@@ -65,8 +63,13 @@
 
 }
 video{
-    width: 500pt;
-    height: 500pt;
+    width: 700pt;
+    /* height: 900pt; */
+}
+.field{
+    width: 30pt;
+    height: 25pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
       input{
                 width: 200pt;
@@ -77,6 +80,10 @@ video{
         textarea{
             width: 300pt;
             height: 80pt;
+            border: 1px solid coral;
+        }
+        .formone{
+            background-color: aqua;
         }
         .socials{
             display: flex;
@@ -123,23 +130,26 @@ video{
         </div>
         </ul>
         <div class="image-form-container">
+            <div>
                 <video  loop="" autoplay=""  src="../src/video.mp4"></video>
+            </div>
             <!-- <div class="form" id="form">
             </div> -->
                 <div class="center"> 
-        <form action="" id="form">
+        <form action="" class="formone">
             <h3>Contact Us at African Choice.</h3>
-                    <div>       
-                        <div><label for="full Name">Your Name</label> </div>
+                    <div >       
+                        <div class="field"><label for="full Name"> Name</label> </div>
                       <input type="text" name="" id="Full name" placeholder="Your Name" required>
             
         </div>
-        <div>
-            <div> <label for="full name">E-mail</label></div>
+        <div >
+            <div class="field"> <label for="full name">Email</label></div>
             <input type="full name" id="full name" placeholder="Email" required>
         </div>
         <div>
-            <textarea name="" id="Your message" cols="30" rows="7" placeholder="Your message" required></textarea>
+            <div class="field"> <label for="full name">Message</label></div>
+            <textarea name="" id="Your message" cols="30" rows="7" required></textarea>
         </div>
         <div>
             <button type="submit">send</button>
