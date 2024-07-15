@@ -8,30 +8,35 @@
     <style>
 
         body{
-            background-color: greenyellow;
+            background-image: url(../image/stockbg2.webp);
+            }
         a{
             color: aliceblue;
         }
-        } 
+        
          h2{
             font-family: cursive;
             color: whitesmoke;
 
          }
         .bigcontainer2{
-            background-color:  rgb(21, 212, 155);
+            /* background-color:  rgb(21, 212, 155); */
             padding: 20pt 30pt;
             display: flex;
             justify-content: flex-end;
-            gap: 30px;
+            gap: 100px;
             border-radius: 30pt;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-shadow: 4px 4px 10px black;
             
         }
         .aboutbutton{
-            background-color: aquamarine;
+            text-decoration: overline;
             border-radius: 10pt;
             padding: 3pt;
         }
+        
+    
         .page{
             display: flex;
         }
@@ -43,13 +48,14 @@
             width: 50%;
         height: 300pt;
         background-color: rgba(137, 231, 129, 0.445);
-        border: 2px solid black;
         text-align: center ;
-        font: 1.3em ;
+        box-shadow: 4pt 4pt 4pt;
         line-height: 25pt;
         color: black;
-        font-family: cursive;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding-left: 10pt;
+        font-size: larger;
+        text-shadow: 4pt 4pt 10pt black;
         
         }
         .boxlink{
@@ -64,7 +70,7 @@
 
         }
         .box1{
-            background-color: rgb(177, 235, 175);
+            background-color: transparent;
             width: 200pt;
             height: 250pt;
             padding-top: 20pt;
@@ -73,35 +79,36 @@
             font: 3em bold;
             transform: rotate(-90deg);
             color: black;
-            font-family: cursive;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            margin: 50pt;
+           text-shadow: 4pt 4pt 4pt white;
         }
         .list{
-            text-align: justify;
-        font: 1.3em ;
+        text-align: justify;
+        /* font: 1.3em ; */
         line-height: 25pt;
         color: black;
-        font-family: cursive;
-        border: 2px solid rgb(19, 221, 144);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 10pt;
+        font-size: larger;
+        background-color: aquamarine;
+        width: 600pt;
+        margin-right: 300pt;
+        box-shadow: 4pt 4pt 4pt 5pt;
         
+        }
+        .boxlink:hover{
+            background-color: rgb(38, 155, 73);
+           border-radius: 30pt;
+           color: white;
         }
         .boxlink2{
             color: darkorchid;
             display: flex;
             justify-content: center;
         }
-        .img2{
-            width: 400pt;
-            height: 270pt;
-            /* padding-top: 20pt; */
-        }
-        /* img{
-            width: 400pt;
-            height: 270pt; */
-
-            
-        /* } */
+        
+    
         a{
             text-decoration: none;
         }
@@ -113,26 +120,25 @@
         top: 18px;
         border-radius: 50%;
      }
-     a:hover{
-            background-color: rgb(13, 230, 78);
+     .nav-link:hover{
+            background-color: rgb(38, 155, 73);
             border-style: hidden;
-            padding: 5pt 5pt;
+            padding: 2pt 3pt;
             color: white;
-            border-radius: 10pt;
+            border-radius: 30pt;
         }
         .socials{
             display: flex;
-            background-color:  rgb(23, 73, 23);
+            background-color: rgb(105, 214, 105);
             gap: 100pt;
             padding: 20pt 30pt;
             color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         .footer-logo{
             width: 100pt;
             height: 60pt;
             border-radius: 50%;
-            display: flex;
-            justify-content: flex-start;
 
         }
         .logo{
@@ -147,36 +153,82 @@
             padding-top: 10pt;
          }
 
-            .parafoot{
-              font-size: larger;
+        
+            i{
+                border-radius: 30pt;
+                padding: 6pt;
+                color: white;
+            }
+            
+            .facebook{
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .facebook:hover{
+               background: local;
+            }
+            .twitter{
+                background-color: rgb(151, 207, 245);
+                border-radius: 50%;
+            }
+            .twitter:hover{
+                background: local;
+            }
+            .youtube{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .youtube:hover{
+                background: local;
+            }
+            .instagram{
+                background-color: rgb(202, 70, 202);
+                border-radius: 50%;
+            }
+            .instagram:hover{
+                background: local;
+            }
+            .linkedin{
+                background-color: rgb(151,207,245);
+                border-radius: 50%;
+            }
+            .linkedin:hover{
+                background: local;
             }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <div class="bigcontainer2" id="container2">
-            <img src="../image/main.png" alt="" class="hey">
-         <div>
-           <a href="../index.html">Home</a>
-        </div>
-        <div>
-            <a href="products.html">Products</a>
-        </div>
-        <div class="aboutbutton">
-           <a href="about.html">about Us</a>
-        </div>
-        <div>
-            <a href="contacts.html">contact us</a>
-        </div>
-        <div>
-            <a href="login.html">Login<i class="fa-solid fa-right-to-bracket"></i></a>
-        </div>
-        <div>
-            <a href="signup.html">Signup</a>
-        </div>
-        </div>
-        </ul>
+            <div class="bigcontainer2" id="container2"> <!--navigation bar which has a logo and contains individual divs with links in them-->
+            <img src="../image/main.png" alt="" class="hey"> <!--logo-->
+        
+                <div class="nav-link"> <!--div containing homelink-->
+                    <a href="../index.html">Home</a>
+                </div>
+        
+                <div class="nav-link"> <!--div containing productlink-->
+                    <a href="products.html">Products</a>
+                </div>
+        
+                <div class="aboutbutton" class="nav-link"> <!--div containing aboutlink-->
+                    <a href="about.html">about Us</a>
+                </div>
+        
+                <div class="nav-link"> <!--div containing contactlink-->
+                    <a href="contacts.html">contact us</a>
+                </div>
+        
+                 <div class="nav-link"> <!--div containing login link-->
+                    <a href="login.html">Login</a>
+                 </div>
+        
+                <div class="nav-link"> <!-- div containing signuplink-->
+                    <a href="signup.html">Signup</a></li>
+                </div>
+            </div> 
+                </ul> <!--end of navigation bar-->
+
     </nav>
         <div class="page">
             <video  loop="" autoplay="" width="50%"  src="../src/videomarket.mp4"></video>
@@ -203,21 +255,21 @@
              from local farmers and producers.
          <li> Community Engagement: Join a vibrant community of African food enthusiasts.</li>
        </ul>
-      <div class="boxlink2"> <a class="boxlink2" href="signup.html">Join us</a></div>
+      <div class="boxlink2"> <a class="boxlink" href="signup.html">Join us</a></div>
     </div>
-            <img class="img2"  src="../image/main.png" alt="">
+        
         </div>
     <div>
         <footer>
          <div class="socials">
          <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
-             <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
+             <div><p> Please follow us on all our socials.🤳📲👍 </p>
                  <div class="fonts">
-                 <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-                 <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
-                 <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-                 <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-                 <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                 <div class="facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                 <div class="twitter"><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                 <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+                 <div class="instagram"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                 <div class="linkedin"><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
                  </div>
              </div>
              </div>

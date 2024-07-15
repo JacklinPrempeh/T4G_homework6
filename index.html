@@ -6,8 +6,13 @@
     <title>food</title><script src="https://kit.fontawesome.com/7490b50b3f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css">
     <style>
+        body{
+            background-color:  rgb(206, 248, 142);
+        
+        
+        }
         .homebutton{
-            background-color: aquamarine;
+            text-decoration: overline;
             border-radius: 10pt;
             padding: 3pt;
         }
@@ -28,10 +33,13 @@
            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
            font-size: larger;
            line-height: 25pt;
+           color: white;
         }
          .but2{
             text-align: center;
          }
+         
+         
         .img-text-container{
           text-align: center;
          width: 100%;
@@ -56,8 +64,12 @@
         /* } */
         .button{
             color: darkblue;
-            padding: 5pt;
         }
+        .button:hover{
+            background-color: rgb(38, 155, 73);
+            border-radius: 30pt;
+            color: white;
+            }
         .but1{
             background-color: rgb(9, 78, 55);
             position: absolute;
@@ -70,10 +82,7 @@
             padding-right: 10pt;
             text-decoration: none;
         }
-        body{
-            background-color:  rgb(206, 248, 142);
-            color: white;
-        }
+        
         .img1{
             width: 300pt;
             height: 200pt;
@@ -90,6 +99,7 @@
             margin: 10px 20px;
           text-decoration-line: overline;
           text-shadow: 5px 5px 5px black;
+          color: white;
         }
         h1{
        text-align: center;
@@ -107,18 +117,18 @@
         .nav{
             display: flex;
             justify-content: flex-end;
-            gap: 30px;
+            gap: 100px;
             padding: 20pt 30pt;
-            background-color: rgb(21, 212, 155);
+            /* background-color: rgb(21, 212, 155); */
             border-radius: 30pt;
-            ;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           text-shadow: 4px 4px 10px black;
         }
-        a:hover{
-            background-color: rgb(13, 230, 78);
-            border-style: hidden;
-            padding: 5pt 5pt;
+        .nav-link:hover{
+            background-color: rgb(38, 155, 73);
+            border-radius: 30pt;
             color: white;
-            border-radius: 10pt;
+            padding: 2pt 3pt;
         }
         .main{
         height: 57pt;
@@ -141,6 +151,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             justify-content: center;
             background-color: rgb(63, 214, 63);
             color: black;
@@ -153,12 +164,9 @@
             
         }
         .signup{
-         display: flex; 
-         justify-content: center; 
          margin-top: 70pt;  
-         font: 1.5em ;   
-         color: black;
         }
+        
         .form{
             display: flex;
             justify-content: flex-end;
@@ -180,9 +188,10 @@
         
         .socials{
             display: flex;
-            background-color: rgb(23, 73, 23);
+            background-color: rgb(105, 214, 105);
             gap: 100pt;
             padding: 20pt 30pt;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         .footer-logo{
             width: 100pt;
@@ -198,28 +207,80 @@
             border-radius: 50%;
         }
 
-        .img-text-container h1{
-            text-shadow: 5px 5px 25px white;
+         i{
+                border-radius: 30pt;
+                padding: 6pt;
+            }
             
-
-        }
-        .parafoot{
-            font-size: larger;
-        }
+            .facebook{
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .facebook:hover{
+               background: local;
+            }
+            .twitter{
+                background-color: rgb(151, 207, 245);
+                border-radius: 50%;
+            }
+            .twitter:hover{
+                background: local;
+            }
+            .youtube{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .youtube:hover{
+                background: local;
+            }
+            .instagram{
+                background-color: rgb(202, 70, 202);
+                border-radius: 50%;
+            }
+            .instagram:hover{
+                background: local;
+            }
+            .linkedin{
+                background-color: rgb(151,207,245);
+                border-radius: 50%;
+            }
+            .linkedin:hover{
+                background: local;
+            }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <div class="nav" id="navbar">
-                <img src="image/main.png" alt="" class="main">
-                <div class="homebutton"><a href="index.html">Home</a></div>
-                <div><a href="pages/products.html">Products</a></div>
-                    <div><a href="pages/about.html">about Us</a></div>
-                    <div><a href="pages/contacts.html">Contact us</a></div>
-                    <div><a href="pages/login.html">Login</a></div>
-                        <div><a href="pages/signup.html">Signup</a></div>
-        </div>
+            <div class="nav">  <!--navigation bar which has a logo and contains individual divs with links in them-->
+                <img src="image/main.png" alt="" class="main"><!--logo-->
+        
+                <div class="homebutton" class="nav-link"> <!--div containing homelink-->
+                    <a href="index.html">Home</a>
+                </div>
+        
+                <div class="nav-link"> <!--div containing productlink-->
+                    <a href="pages/products.html">Products</a>
+                </div>
+        
+                <div class="nav-link"> <!--div containing aboutlink-->
+                    <a href="pages/about.html">about Us</a>
+                </div>
+        
+                <div class="nav-link"> <!--div containing contactlink-->
+                    <a href="pages/contacts.html">contact us</a>
+                </div>
+        
+                 <div class="nav-link"> <!--div containing login link-->
+                    <a href="pages/login.html">Login</a>
+                 </div>
+        
+                <div class="nav-link"> <!-- div containing signuplink-->
+                    <a href="pages/signup.html">Signup</a></li>
+                </div>
+            </div> 
+                </ul> <!--end of navigation bar-->
+            </nav>
         </ul>
     </nav>
     <h1 id="head">Welcome to African Choice</h1>
@@ -235,7 +296,7 @@
 </div>
 <h1 id="browse">Browse Through The African Goodness</h1>
 <div class="div-image">
-<div class="photos">
+<div class="photos" id="pictures">
     <img  id="grains" src="image/grains.jpeg"  class="img1">
     <h3>African Grains</h3>
 </div>
@@ -277,34 +338,37 @@
         <img src="image/spices.jpeg"  class="img1">
        <h3>African Spices</h3>
     </div>
+    <div>
+    <button class="less" id="showless">Show less</button>
+</div>
     </div>
 
-<div class="news-footer">
- <div class="newsletters">
+
+ <div class="newsletters"> <!--div for only newsletter text and email-->
     <div>
     <h2>NEWSLETTERS</h2>
-    Would you like to receive monthl information about our products and services</div>
-     <div class="signup">Sign up here <i class="fa-solid fa-right-to-bracket"></i></div>
-<div>
+    Would you like to receive monthly information about our products and services</div>
+     <div class="signup">Sign up here</div>
+<div> <!--div for only email-->
     <form action="" class="form">
         <label for="email">email</label>
         <input type="email" name="" id="" required>
-        <button type="submit">signup here</button>
+<button class="button" type="submit">submit</button>
     </form>
-</div>
- </div>
+</div> 
+ </div> <!--end of div for only email-->
 
     
    <footer>
-    <div class="socials">
-    <div class="footer-logo"><img class="logo"  src="image/main.png" alt=""></div>
-        <div class="parafoot"> Please follow us on all our socials.🤳📲👍 
+    <div class="socials"> <!--div containing logo ,text and socials-->
+    <div class="footer-logo"><img class="logo"  src="image/main.png" alt=""></div> <!--div containing logo-->
+        <div> Please follow us on all our socials. <!--div containing text and socials-->
             <div class="fonts">
-                <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-                <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
-                <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-                <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-                <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="twitter"><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+                <div class="instagram"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="linkedin"><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
             </div>
         </div>
         </div>

@@ -21,14 +21,18 @@
         border-radius: 10pt;
     }
 .link{
-    font-size: x-large;
-    color: rgb(143, 150, 146);
+    font-size: large;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
+.link:hover{
+  background-color: rgb(38, 155, 73);
+  border-radius: 30pt;
+  color: white;
+}
 p{
-    font: optional;
-    font-weight: 300;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 25pt;
     margin: 20px;
 }
@@ -39,13 +43,16 @@ p{
             /* margin: 10px 20px; */
 }
 .button{
-    background-color: gray;
+    background-color: transparent;
 font-size: medium;
 border-radius: 30pt;
 margin: 10px 20px;
 }
+.button:hover{
+  background-color: rgb(38, 155, 73);
+}
 body{
-  background-color: antiquewhite;
+  background-color:  rgb(206, 248, 142);
     
 }
 a{
@@ -55,11 +62,17 @@ a{
 .nav{
     display: flex;
     justify-content: flex-end;
-    gap: 30pt;
+    gap: 100pt;
     padding: 20pt 30pt;
-    background-color:  rgb(21, 212, 155);
     border-radius: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 10px black;
 }
+.nav-link:hover{
+    background-color: rgb(38, 155, 73);
+            padding: 2pt 3pt;
+            border-radius: 30pt;
+  }
 .first{
   display: flex;
   gap: 50pt;
@@ -67,10 +80,7 @@ a{
   height: 300pt;
   
 }
-.talk{
-  border: 2pt solid black;
-  border-radius: 50%;
-}
+
 
 /* .selected{
             background-color: aquamarine;
@@ -80,17 +90,12 @@ a{
         border-radius: 10pt;} */
 
 .productbutton{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
             border-radius: 10pt;
             padding: 3pt;
+            text-decoration: overline;
 }
-  a:hover{
-    background-color: rgb(13, 230, 78);
-            border-style: hidden;
-            padding: 5pt 5pt;
-            color: white;
-            border-radius: 30pt;
-  }
+  
   .main{
     height: 57pt;
         width: 150px;
@@ -106,15 +111,20 @@ a{
       }
 
       .subcontent{
-        background-color: aqua;
+        background-color: rgb(13, 224, 119);
         width: 30%;
         margin-bottom: 30pt;
+        
       }
       .little{
         width: 100pt;
         height: 70pt;
         border-radius: 50%;
         
+      }
+      .woman{
+        margin-top: 100pt;
+        border-radius: 50pt;
       }
       .back{
         width: 300pt;
@@ -136,6 +146,10 @@ a{
             justify-content: flex-start;
 
         }
+        .fruits{
+          border-radius: 50%;
+          
+        }
         .logo{
             width: 100pt;
             height: 60pt;
@@ -149,38 +163,100 @@ a{
             .parafoot{
               font-size: larger;
             }
+            i{
+                border-radius: 30pt;
+                padding: 6pt;
+            }
+            
+            .facebook{
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .facebook:hover{
+               background: local;
+            }
+            .twitter{
+                background-color: rgb(151, 207, 245);
+                border-radius: 50%;
+            }
+            .twitter:hover{
+                background: local;
+            }
+            .youtube{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .youtube:hover{
+                background: local;
+            }
+            .instagram{
+                background-color: rgb(202, 70, 202);
+                border-radius: 50%;
+            }
+            .instagram:hover{
+                background: local;
+            }
+            .linkedin{
+                background-color: rgb(151,207,245);
+                border-radius: 50%;
+            }
+            .linkedin:hover{
+                background: local;
+            }
   </style>
 
 </head>
 <body>
     <nav>
         <ul>
-            <div class="nav">
-                <img src="../image/main.png" alt="" class="main">
-            <div><a href="../index.html">Home</a></div>
-            <div class="productbutton"><a href="products.html">Products</a></div>
-            <div><a href="about.html">about Us</a></div>
-            <div><a href="contacts.html">Contact us</a></div>
-            <div><a href="login.html">Login</a></div>
-            <div><a href="signup.html">Signup</a></div>
+          <div class="nav">  <!--navigation bar which has a logo and contains individual divs with links in them-->
+            <img src="../image/main.png" alt="" class="main"> <!--logo-->
+    
+            <div class="nav-link"> <!--div containing homelink-->
+                <a href="../index.html">Home</a>
             </div>
+    
+            <div class="productbutton" class="nav-link"> <!--div containing productlink-->
+                <a href="products.html">Products</a>
+            </div>
+    
+            <div class="nav-link"> <!--div containing aboutlink-->
+                <a href="about.html">about Us</a>
+            </div>
+    
+            <div class="nav-link"> <!--div containing contactlink-->
+                <a href="contacts.html">contact us</a>
+            </div>
+    
+             <div class="nav-link"> <!--div containing login link-->
+                <a href="login.html">Login</a>
+             </div>
+    
+            <div class="nav-link"> <!-- div containing signuplink-->
+                <a href="signup.html">Signup</a></li>
+            </div>
+        </div> 
+            </ul> <!--end of navigation bar-->
+        </nav>
         </ul>
     </nav>
     <div class="first">
-    <img  class="talk" src="../image/talking fruits.jpg" alt="">
-    <img  class="talk" src="../image/talking veggies.jpg" alt="">
-    <img  class="talk"   src="../image/talkingfruits and veggies.jpg" alt="">
+    <video class="fruits" src="../src/talkingfruit video.mp4" autoplay="" loop=""></video>
+    <video class="fruits" src="../src/Talking veggie.mp4" autoplay="" loop=""></video>
+    <video class="fruits" src="../src/talking3.mp4" autoplay="" loop=""></video>
   </div>
-    <h2>Our Raw Food Products</h2>
+    <h2  id="firstpara">Our Raw Food Products</h2>
     <div class="content">
-        <div class="subcontent">
+        <div  class="subcontent">
           <img src="../image/shea2.jpg" class="img1" alt="shea" width="300pt">
-          <div class="para-content"> 
+          <div> 
             <h4>Shea Butter</h4> 
-            <p><a class="link" href="https://en.wikipedia.org/wiki/Shea_butter" target="blank">Shea Butter </a>is from the <b>shea tree</b> 
+            <p><a class="link" href="https://en.wikipedia.org/wiki/Shea_butter" target="blank">Shea Butter </a>is from the shea tree
               which grows naturally in the wild and  the dry savannah belt of West Africa from Senegal in the west to Sudan in the east, 
-              and onto the foothills of the Ethiopian highlands. It occurs in 21 countries across the African continent, namely Benin, 
-              Burkina Faso, Cameroon, Central African Republic, Chad, Ethiopia, Eritrea, Ghana, Guinea Bissau, Ivory Coast, Mali, Niger, 
+              and onto the foothills of the Ethiopian highlands. It occurs in 21 countries across the African continent, namely 
+              <span id="read">Read more</span>
+            </p>
+            <p class="text" id="benin">Benin,  Burkina Faso, Cameroon, Central African Republic, Chad, Ethiopia, Eritrea, Ghana, Guinea Bissau, Ivory Coast, Mali, Niger, 
               Nigeria, Senegal, Sierra Leone, South Sudan, Sudan, Togo, Uganda, Democratic Republic of the Congo, Kenya and Guinea.Shea 
               butter is used in cooking at home, used as hair pommades and also as cure to some skin diseases. 
             </p>
@@ -188,7 +264,7 @@ a{
           </div>
         </div> 
   
-        <div class="subcontent">
+        <div id="secondpara" class="subcontent">
           <img src="../image/cocoyammain.jpg"      class="img1" alt="cocoyam" width="300pt">
           <div class="para-content"><h4>Cocoyam</h4>
             <p><a class="link" href="https://en.wikipedia.org/wiki/Cocoyam" target="blank">Cocoyams</a> are herbaceous perennial plants belonging to the family 
@@ -198,10 +274,9 @@ a{
             </p>
             <button class="button"><a href="https://en.wikipedia.org/wiki/Cocoyam">Learn more</a></button>
           </div>
-          <img  class="little" src="../image/cocoyam2.jpg" alt="">
       </div>
   
-      <div class="subcontent">
+      <div  id="thirdpara" class="subcontent">
         <img  src="../image/african star apple.jpeg"  class="img1" alt="africanstarfruit" width="300pt">
         <div class="para-content">
           <h4>African Star Apple</h4>
@@ -259,7 +334,7 @@ a{
         <button class="button"><a href="https://en.wikipedia.org/wiki/Grains_of_Selim">Learn more</a></button>
       </div>
     </div>
-    <div><img  class="back"  src="../image/background.jpg" alt=""></div>
+    <div><video class="woman" src="../src/marketlady.mp4" autoplay="" loop="" width="600pt"></video></div>
     <div class="subcontent">
       <img src="../image/dawadawa.jpg" class="img1" width="300pt">
       <div class="para-content">
@@ -278,13 +353,13 @@ a{
     <footer>
      <div class="socials">
      <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
-         <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
+         <div class="parafoot"><p> Please follow us on all our socials. </p>
              <div class="fonts">
-              <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-              <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
-              <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-              <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-              <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+              <div class="facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+              <div class="twitter"><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+              <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+              <div class="instagram"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+              <div class="linkedin"><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
              </div>
          </div>
          </div>

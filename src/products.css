@@ -1,0 +1,13 @@
+#benin{
+    display: none;
+}
+#read:hover{
+color: rgba(73, 58, 209, 0.849);
+}
+#h2{
+    font: 3em bolder;
+    text-align: center;
+    font-family: cursive;
+    text-align: center;
+    background-color: antiquewhite;
+}

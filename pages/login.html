@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../src/login.css">
     <style>
         body{
-            background-color:  rgb(206, 248, 142);
+            background-image: url(../image/stockfruits.jpg);
+            background-size: cover;
         }
         h3{
             font: 2em cursive;
@@ -15,15 +16,19 @@
         .nav{
             display: flex;
             justify-content: flex-end;
-            gap: 30px;
-            background-color:  rgb(21, 212, 155);
+            gap: 100px;
+            /* background-color:  rgb(21, 212, 155); */
             padding: 20pt 30pt;
             border-radius: 30pt;
+            text-shadow: 4px 4px 10px black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         .loginbutton{
-            background-color: aquamarine;
+            /* background-color: aquamarine; */
             border-radius: 10pt;
             padding: 3pt;
+            text-decoration: overline;
+            color: black;
             
         }
         .main{
@@ -38,34 +43,12 @@
             text-decoration: none;
             color: white;
         }
-        a:hover{
-            background-color: rgb(13, 230, 78);
-            border-style: hidden;
-            padding: 5pt 5pt;
-            color: white;
-        border-radius: 10pt;}
-
-        /* .selected{
-            background-color: aquamarine;
-            border-style: hidden;
-            padding: 5pt 5pt;
-            color: white;
-        border-radius: 10pt;} */
-     .socials{
-            display: flex;
-            background-color:  rgb(23, 73, 23);
-            gap: 100pt;
-            padding: 20pt 30pt;
-            color: white;
-        }
-        .footer-logo{
-            width: 100pt;
-            height: 60pt;
-            border-radius: 50%;
-            display: flex;
-            justify-content: flex-start;
-
-        }
+        .nav-link:hover{
+            background-color: rgb(38, 155, 73);
+            padding: 2pt 3pt;
+            border-radius: 30pt;
+            }
+     
         .logo{
             width: 100pt;
             height: 60pt;
@@ -83,32 +66,41 @@
 
 
             .pages{
-                display: flex;
-                background-color: antiquewhite;
-                justify-content: space-between;
-                border-radius: 20pt;
-                gap: 30pt;
+                top: 50%;
+                left: 50%;
+                transform: translate(150%,-0%);
+                width: 400px;
+                background-color: rgba(0,0,0,.8);
+                padding-top: ;
+                padding-bottom: 90px;
+                padding-left: 20px;
+                padding-right: 20px;
+                box-sizing: border-box;
+                box-shadow: 0 15px 25px rgba(0,0,0,.5);
+                border-radius: 10px;
+                color: white;  
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               
+    
             }
             input{
                 width: 200pt;
                 height: 15pt;
                 padding: 0 15pt;
-                border: 1px solid coral;
+                border-radius: 10pt;
             }
             .fullform{
-                width: 50%;
-                height: 400pt;
-                /* text-align: center; */
-                display: flex;
-                margin-top: 70pt;
+                width: 100%;
+                font-size: 16px; 
+                margin-bottom: 30pt; 
+                border: none;
+                color: #fff;
+                outline: none;
+                background: transparent;
             
                 
             }
-            .mainform{
-                height: 40px;
-                width: 100%;
-                margin-top: 20px;
-            }
+         
             .formbutton{
                 width: 230pt;
                 height: 20pt;
@@ -120,89 +112,134 @@
                 color: darkblue;
                 line-height: 20pt;
             }
-            .login-font{
-                width: 50%;
+            .account:hover{
+                background-color: rgb(38, 155, 73);
+                border-radius: 30pt;
+                color: white;
             }
-
-            .login-font i{
-                width: 50%;
-                font-size: 450pt;
-                color: green;
+         h4{
+            margin-left: 60pt;
+                font-weight: 500;
             }
-         
+            .socials{
+                display: flex;
+                gap: 20pt;
+            }
+            i{
+                border-radius: 30pt;
+                padding: 6pt;
+                color: white;
+            }
+            
+            .facebook{
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .facebook:hover{
+               background: local;
+            }
+            .twitter{
+                background-color: rgb(151, 207, 245);
+                border-radius: 50%;
+            }
+            .twitter:hover{
+                background: local;
+            }
+            .youtube{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .youtube:hover{
+                background: local;
+            }
+            .instagram{
+                background-color: rgb(202, 70, 202);
+                border-radius: 50%;
+            }
+            .instagram:hover{
+                background: local;
+            }
+            .linkedin{
+                background-color: rgb(151,207,245);
+                border-radius: 50%;
+            }
+            .linkedin:hover{
+                background: local;
+            }
     </style>
 </head>
 <body>
     <nav>
-        <ul>
-        <div class="nav">
-            <img src="../image/main.png" alt="" class="main">
-        <div>
+        <ul> 
+    <div class="nav">  <!--navigation bar which has a logo and contains individual divs with links in them-->
+        <img src="../image/main.png" alt="" class="main"> <!--logo-->
+
+        <div class="nav-link"> <!--div containing homelink-->
             <a href="../index.html">Home</a>
         </div>
-        <div>
+
+        <div class="nav-link"> <!--div containing productlink-->
             <a href="products.html">Products</a>
         </div>
-        <div>
+
+        <div class="nav-link"> <!--div containing aboutlink-->
             <a href="about.html">about Us</a>
         </div>
-        <div>
+
+        <div class="nav-link"> <!--div containing contactlink-->
             <a href="contacts.html">contact us</a>
         </div>
-         <div class="loginbutton">
-            <a href="login.html">Login<i class="fa-solid fa-right-to-bracket"></i></a>
+
+         <div class="loginbutton" class="nav-link"> <!--div containing login link-->
+            <a href="login.html">Login</a>
          </div>
-        <div>
+
+        <div class="nav-link"> <!-- div containing signuplink-->
             <a href="signup.html">Signup</a></li>
         </div>
-    </div>
-        </ul>
+    </div> 
+        </ul> <!--end of navigation bar-->
     </nav>
-    <div class="pages">
-        <div class="login-font"><i class="fa-solid fa-right-to-bracket"></i></a></div>
-        <div class="fullform">
-            
-        <form action="" id="form">
-            <h3>Login to African Choice</h3>
-            <div>
-                <div class="mainform">
-        <div><label for="E-mail">E-mail</label></div>
-        <input type="email" name="" placeholder="Your email"required></div>
+
+    <div class="pages"> <!--div for whole form-->
+      <form action="" id="form">
+
+        <h3>Login to African Choice</h3>  <!--text,label and input for email-->
+        <div> 
+            <div><label for="E-mail">E-mail</label></div>
+            <input type="email" name="" placeholder="Your email"required>
         </div>
-        <div>
-        <div class="mainform">
-        <div><label for="Password">password</label></div>
-       <input type="password" name="" required></div>
+        
+        <div>  <!--label and input for password-->
+            <div><label for="Password">password</label></div>
+            <input type="password" name="" required>
         </div>
-        <div class="formlink">
+
+        <div>  <!--forget password link-->
             <a class="account" href="">forgot your Password?</a>
         </div>
-        Keep me logged in<input type="checkbox" name="">
-        <div class="mainform">
-       <button class="formbutton" type="submit">submit</button>
+
+        <div>   <!--text and checkbox-->
+            Remember Me
+            <input type="checkbox" name="" id="">
+        </div>
+
+        <div> <!--submit button-->
+           <button class="formbutton" type="submit">submit</button>
+        </div>
+
+             Not a Member? <a class="account" href="signup.html">Sign up Now</a> <!--link to signup-->
+      </form>
+      <h4>Login with our socials</h4>
+        <ul class="socials">   <!--social media links-->
+            <div class="facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook" class="facebook"></i></a></div>
+            <div class="twitter"><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+            <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+            <div class="instagram"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+            <div class="linkedin"><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+        </ul>
     </div>
-    Don't have an account?
-      <div ><a class="account" href="signup.html">Create a free account</a></div>
-        </form>
-    </div>
-</div>
-    </div>
-        <div>
-            <footer>
-             <div class="socials">
-             <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
-                 <div class="parafoot"><p> Please follow us on all our socials.🤳📲👍 </p>
-                     <div class="fonts">
-                        <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-                        <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
-                        <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-                        <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-                        <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
-                     </div>
-                 </div>
-                 </div>
-                 </footer>
-             </div>
-             <script src="../src/index.js"></script>
+    
+ <script src="../src/index.js"></script>
 </body>
 </html>

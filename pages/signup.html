@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../src/signup.css">
     <style>
       body{
-        background-color:  rgb(206, 248, 142);
+        background-image: url(../image/stock.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       h3{
         text-align: center;
@@ -19,23 +21,28 @@
       .nav{
         display: flex;
         justify-content: flex-end;
-        gap: 30px;
+        gap: 100px;
         border-radius: 30pt;
         padding: 20pt 30pt;
-        background-color:  rgb(21, 212, 155);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 4px 4px 10px black;
       }
       .page{
-        background-color: greenyellow;
+        background-color: seagreen;
         height: 780pt;
         width: 300pt;
-    margin-left: 35%;
+        margin-left: 500pt;
+        box-shadow: 10px 10px 10px;
+        font-family: ;
       
       }
       .form{
         padding-top: 20pt;
         padding-left: 20pt;
-        line-height: 25pt;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-right: 20pt;
+        line-height: 20pt;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
       }
       input{
                 width: 200pt;
@@ -52,8 +59,21 @@
             background-color: darkcyan;
             margin-top: 20pt;
           }
+          .formbutton:hover{
+            background-color: rgb(38, 155, 73);
+            border-radius: 30pt;
+            color: white;
+          }
+          .loginhere{
+            color: blue;
+          }
+          .loginhere:hover{
+            background-color: rgb(38, 155, 73);
+            border-radius: 30pt;
+            color: white;
+          }
       .signupbutton{
-        background-color: aquamarine;
+        text-decoration: overline;
             border-radius: 10pt;
             padding: 3px;
       }
@@ -65,20 +85,23 @@
         top: 18px;
         border-radius: 50%;
       }
+
       a{
           text-decoration: none;
       }
-      a:hover{
-            background-color: rgb(13, 230, 78);
-            border-style: hidden;
-            padding: 5pt 5pt;
-            color: white;
-          border-radius: 10pt;}
+
+      .nav-link:hover{
+        background-color: rgb(38, 155, 73);
+            padding: 2pt 3pt;
+            border-radius: 30pt;
+          }
+
       .socials{
             display: flex;
             background-color:   rgb(23, 73, 23);
             gap: 100pt;
             padding: 20pt 30pt;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             color: white;
         }
         .footer-logo{
@@ -102,32 +125,81 @@
             .parafoot{
               font-size: larger;
             }
+            i{
+                border-radius: 30pt;
+                padding: 6pt;
+                color: white;
+            }
+            
+            .facebook{
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .facebook:hover{
+               background: local;
+            }
+            .twitter{
+                background-color: rgb(151, 207, 245);
+                border-radius: 50%;
+            }
+            .twitter:hover{
+                background: local;
+            }
+            .youtube{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .youtube:hover{
+                background: local;
+            }
+            .instagram{
+                background-color: rgb(202, 70, 202);
+                border-radius: 50%;
+            }
+            .instagram:hover{
+                background: local;
+            }
+            .linkedin{
+                background-color: rgb(151,207,245);
+                border-radius: 50%;
+            }
+            .linkedin:hover{
+                background: local;
+            }
     </style>
 </head>
 <body>
     <nav>
     <ul>
-      <div class="nav">
-        <img src="../image/main.png" alt="" class="main">
-      <div>
-        <a href="../index.html">Home</a>
-      </div>
-      <div>
-        <a href="products.html">Products</a>
-      </div>
-      <div>
-        <a href="about.html">about Us</a>
-      </div>
-      <div>
-        <a href="contacts.html">Contact us</a>
-      </div>
-      <div>
-        <a href="login.html">Login</a>
-      </div>
-      <div class="signupbutton">
-        <a href="signup.html">Signup</a>
-      </div>
-      </div>
+      <div class="nav">  <!--navigation bar which has a logo and contains individual divs with links in them-->
+        <img src="../image/main.png" alt="" class="main"> <!--logo-->
+
+        <div class="nav-link"> <!--div containing homelink-->
+            <a href="../index.html">Home</a>
+        </div>
+
+        <div class="nav-link"> <!--div containing productlink-->
+            <a href="products.html">Products</a>
+        </div>
+
+        <div class="nav-link"> <!--div containing aboutlink-->
+            <a href="about.html">about Us</a>
+        </div>
+
+        <div class="nav-link"> <!--div containing contactlink-->
+            <a href="contacts.html">contact us</a>
+        </div>
+
+         <div class="nav-link"> <!--div containing login link-->
+            <a href="login.html">Login</a>
+         </div>
+
+        <div class="signupbutton"  class="nav-link"> <!-- div containing signuplink-->
+            <a href="signup.html">Signup</a></li>
+        </div>
+    </div> 
+        </ul> <!--end of navigation bar-->
+    </nav>
     </ul>
     </nav>
   </div>
@@ -135,20 +207,20 @@
    <img src="../image/hellofruits.jpg"  width="400pt">
     <div class="form">
     <form>
-      <h3>Join The Family now.🤝</h3>
-        <div>
+      <h3>Join The Family now.</h3>
+      <div>
         <label for="First Name">First Name</label>
         <input type="text" placeholder="First Name" required>
        </div> 
-       <div>
+      <div>
         <label for="Last Name">Last Name</label>
         <input type="text" placeholder="Last Name" required>
        </div>
-       <div>
+      <div>
         <div><label for="Phone">Phone</label></div>
         <input type="tel" name="" placeholder="tel" required>
        </div>
-       <div>
+      <div>
         <label for="">Date of Birth</label>
         <input type="date" name="" id="" required>
       </div>
@@ -166,27 +238,29 @@
       </div>
       By clicking Join now, you agree to privacy policy.
       <button class="formbutton" type="submit">Join now</button>
-      <div>Already have an account?<a href="login.html">   login here</a></div>
+      <div>Already have an account?
+        <a  class="loginhere" href="login.html">login here</a>
+      </div>
     </form>
   </div>
   </div>
-    <hr>
-    <div>
+
+    <div> <!--div containing footer-->
       <footer>
-       <div class="socials">
-       <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
-           <div class="parafoot"> Please follow us on all our socials.🤳📲👍 
-               <div class="fonts">
-                <div><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
-                <div><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
-                <div><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
-                <div><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
-                <div><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
-               </div>
-           </div>
-           </div>
-           </footer>
-       </div>
+       <div class="socials"> <!--div containing logo,text and socials-->
+         <div class="footer-logo"><img class="logo"  src="../image/main.png" alt=""></div>
+           <div > Please follow us on all our socials.
+              <div class="fonts">
+                <div class="facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="twitter"><a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
+                <div class="instagram"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="linkedin"><a href="https://www.linkedin.com/signup" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+              </div>
+          </div>
+        </div> <!--end of div containing logo,text and socials-->
+      </footer>
+    </div> <!--end of div containing footer-->
        <script src="../src/index.js"></script>
 </body>
 </html>
