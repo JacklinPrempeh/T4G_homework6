@@ -13,6 +13,8 @@ let linking=document.getElementById("linking");
 linking.addEventListener('mouseenter',changeColor);
 
 
+
+
 // function aim= when the user enters an image it reduces
  //its size and when it leaves it increases its size
 
@@ -119,12 +121,64 @@ let increasedsixth=document.getElementById('barley');
 increasedsixth.addEventListener("mouseleave",sizesixth);
 
 
-// function tubers(){  //increase size for 7th image
-//     let yam=document.getElementById("tuber");
-//     yam.style.heigth="300pt";
-// }
-// let tuber=document.getElementById('tuber');
-// tuber.addEventListener("mouseenter",tubers);
+// seventh image
+function tubers(){  // reduce size for 7th image
+    let yam=document.getElementById("tuber");
+    yam.style.width="250pt";
+}
+let tuber=document.getElementById('tuber');
+tuber.addEventListener("mouseenter",tubers);
+
+
+function sizeseventh(){  // increases size for 7th image
+    let increasedseventh=document.getElementById('tuber');
+    increasedseventh.style.width=("300pt");
+}
+let increasedseventh=document.getElementById('tuber');
+increasedseventh.addEventListener("mouseleave",sizeseventh);
+
+
+// eight image
+function moreMaize(){  // reduce size for 8th image
+    let afrimaize=document.getElementById("maize");
+    afrimaize.style.width="250pt";
+}
+let maize=document.getElementById('maize');
+maize.addEventListener("mouseenter",moreMaize);
+
+
+function sizeeight(){  // increases size for 8th image
+    let increasedeight=document.getElementById('maize');
+    increasedeight.style.width=("300pt");
+}
+let increasedeight=document.getElementById('maize');
+increasedeight.addEventListener("mouseleave",sizeeight);
+
+
+// nineth image
+function moreSpice(){  // reduce size for 9th image
+    let afrimaize=document.getElementById("spices");
+    afrimaize.style.width="250pt";
+}
+let spices=document.getElementById('spices');
+spices.addEventListener("mouseenter",moreSpice);
+
+
+function sizenine(){  // increases size for 9th image
+    let increasednine=document.getElementById('spices');
+    increasednine.style.width=("300pt");
+}
+let increasednine=document.getElementById('spices');
+increasednine.addEventListener("mouseleave",sizenine);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -132,56 +186,33 @@ increasedsixth.addEventListener("mouseleave",sizesixth);
 
 
 //buttons to show more and show less images
-//showmore
-function loadMore(){
- let reveal= document.getElementById("photo");
-    reveal.style.display=("block");
-    reveal.style.display=("flex");
-    reveal.style.flexWrap="wrap";
-    reveal.style.flexWrap="space-between";
-    let missing =document.getElementById("extra");
-    missing.style.display="none";
+// showmore
+function loadMore(){ // when you click on show more images,it disappears and the last set of images appears together with the showless button
+ let reveal= document.getElementById("photo"); // this reveals  hidden images
+    reveal.style.display=("block"); // styling
+    reveal.style.display=("flex"); //styling
+    reveal.style.flexWrap="wrap";  //styling
+    reveal.style.justifyContent="center";
+    reveal.style.justifyContent="space-around";  // styling
+    let missing =document.getElementById("extra"); //this hides the click
+    missing.style.display="none";                  // to show more images button
+    let rereveal =document.getElementById("showless"); // this reveals the showless button
+    rereveal.style.display="flex"; // styling
 }
-
-let extra=document.getElementById("extra");
-extra.addEventListener("click",loadMore);
+let extra=document.getElementById("extra"); //declaring a variable
+extra.addEventListener("click",loadMore); // adding event listener to the variable
 
 
 //showless
-function hide(){
-    let lessImage=document.getElementById("pictures");
-lessImage.style.display="center";
-let disappear=document.getElementById("showless");
-disappear.style.display="none";
+function hide(){  // when you click on the showless button,it disappears together with the last set of images and the click to show more images button reappears
+    let photoVanish=document.getElementById("photo"); // it hides the last set of photos
+   photoVanish.style.display="none";
+   let rereveal =document.getElementById("extra"); //reveals show more images button
+   rereveal.style.display="flex";
+   let buttonVanish=document.getElementById("showless");  //hides the showless button
+   buttonVanish.style.display="none";
 }
+let off =document.getElementById("showless"); //declaring a variable
+off.addEventListener("click",hide);  // adding event listener to the variable
 
 
-let off =document.getElementById("showless");
-off.addEventListener=("click",hide);
-
-
-
-
-
-
-
-//product page read more effects
-
-function showtext(){
-    let message=document.getElementById('benin');
-message.style.display=("block");
-}
-
-let message=document.getElementById('read');
-  message.addEventListener=("click",showtext);
-
-
-
-function changeBack(){
-    let change=document.getElementById('firstpara');
-    change.style.backgroundColor="black";
-}
-
-
-  let content=document.getElementById('firstpara');
-  content.addEventListener=("mouseenter",changeBack);

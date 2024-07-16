@@ -1,0 +1,157 @@
+body{
+    background-image: url(../image/stockfruits.jpg);
+    background-size: cover;
+}
+h3{
+    font: 2em cursive;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    padding: 20pt 30pt;
+    border-radius: 30pt;
+    text-shadow: 4px 4px 10px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loginbutton{
+    border-radius: 10pt;
+    padding: 3pt;
+    text-decoration: overline;
+    color: black;
+    
+}
+.main{
+    height: 57pt;
+width: 150px;
+left: 50px;
+position: absolute;
+top: 18px;
+border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(38, 155, 73);
+    padding: 2pt 3pt;
+    border-radius: 30pt;
+    }
+
+.logo{
+    width: 100pt;
+    height: 60pt;
+    border-radius: 50%;
+}
+.fonts{
+    display: flex;
+    justify-content: flex-end;
+    gap: 80pt;
+  padding-top: 10pt; }
+
+    .parafoot{
+      font-size: larger;
+    }
+
+
+    .pages{
+        top: 50%;
+        left: 50%;
+        transform: translate(150%,-0%);
+        width: 400px;
+        background-color: rgba(0,0,0,.8);
+        padding-bottom: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.5);
+        border-radius: 10px;
+        color: white;  
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+
+    }
+    input{
+        width: 200pt;
+        height: 15pt;
+        padding: 0 15pt;
+        border-radius: 10pt;
+    }
+    .fullform{
+        width: 100%;
+        font-size: 16px; 
+        margin-bottom: 30pt; 
+        border: none;
+        color: #fff;
+        outline: none;
+        background: transparent;
+    
+        
+    }
+ 
+    .formbutton{
+        width: 230pt;
+        height: 20pt;
+        font-size: 16px;
+    border-radius:  6px;
+    background-color: darkcyan;
+    }
+    .account{
+        color: darkblue;
+        line-height: 20pt;
+    }
+    .account:hover{
+        background-color: rgb(38, 155, 73);
+        border-radius: 30pt;
+        color: white;
+    }
+ h4{
+    margin-left: 60pt;
+        font-weight: 500;
+    }
+    .socials{
+        display: flex;
+        gap: 20pt;
+    }
+    i{
+        border-radius: 30pt;
+        padding: 6pt;
+        color: white;
+    }
+    
+    .facebook{
+        background-color: blue;
+        border-radius: 50%;
+    }
+    .facebook:hover{
+       background: local;
+    }
+    .twitter{
+        background-color: rgb(151, 207, 245);
+        border-radius: 50%;
+    }
+    .twitter:hover{
+        background: local;
+    }
+    .youtube{
+        background-color: red;
+        border-radius: 50%;
+    }
+    .youtube:hover{
+        background: local;
+    }
+    .instagram{
+        background-color: rgb(202, 70, 202);
+        border-radius: 50%;
+    }
+    .instagram:hover{
+        background: local;
+    }
+    .linkedin{
+        background-color: rgb(151,207,245);
+        border-radius: 50%;
+    }
+    .linkedin:hover{
+        background: local;
+    }

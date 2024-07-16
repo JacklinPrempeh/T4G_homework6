@@ -1,8 +1,36 @@
 #benin{
     display: none;
 }
-#read:hover{
-color: rgba(73, 58, 209, 0.849);
+#old{
+    display: none;
+}
+#african{
+    display: none;
+}
+#fresh{
+    display: none;
+}
+#green{
+    display: none;
+}
+#brukina{
+ display: none;
+}
+#wood{
+    display: none;
+}
+#seed{
+    display: none;
+}
+
+.readmore{
+    /* border: none; */
+    color:  rgba(73, 58, 209, 0.849);
+    font-size: 12pt;
+}
+
+.readmore:hover{
+  text-decoration: underline;
 }
 #h2{
     font: 3em bolder;
@@ -11,3 +39,204 @@ color: rgba(73, 58, 209, 0.849);
     text-align: center;
     background-color: antiquewhite;
 }
+.cartstart{
+   margin-left: 45%;
+}
+.cart{
+    margin-left: 35%;
+}
+#firstpara{
+    background-color: rgb(13, 224, 119);
+  }
+  #eightpara{
+    background-color: rgb(13, 224, 119);
+  }
+  
+  h2{
+      font: 3em bolder;
+      text-align: center;
+      font-family: cursive;
+      text-align: center;
+  }
+  h4{
+      text-align: center;
+      color: white;
+      font: 2em sans-serif;
+      /* padding: 10pt ; */
+      margin: 20px 10px;
+      border-radius: 10pt;
+  }
+.link{
+  font-size: large;
+  color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.link:hover{
+background-color: rgb(38, 155, 73);
+border-radius: 30pt;
+color: white;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 25pt;
+  margin: 20px;
+}
+.img1{
+width:355pt;
+height: 200pt;
+  border-color: rgb(124, 175, 36);
+        
+}
+.button{
+  background-color: transparent;
+font-size: medium;
+border-radius: 30pt;
+margin: 10px 20px;
+}
+.button:hover{
+background-color: rgb(38, 155, 73);
+}
+body{
+background-color:  rgb(206, 248, 142);
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 100pt;
+  padding: 20pt 30pt;
+  border-radius: 30pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 4px 4px 10px black;
+}
+.nav-link:hover{
+  background-color: rgb(38, 155, 73);
+          padding: 2pt 3pt;
+          border-radius: 30pt;
+}
+.first{
+display: flex;
+gap: 50pt;
+width: 300pt;
+height: 300pt;
+
+}
+
+.productbutton{
+          border-radius: 10pt;
+          padding: 3pt;
+          text-decoration: overline;
+}
+
+.main{
+  height: 57pt;
+      width: 150px;
+      left: 50px;
+      position: absolute;
+      top: 18px;
+      border-radius: 50%;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    }
+
+    .subcontent{
+      background-color: rgb(13, 224, 119);
+      width: 30%;
+      margin-bottom: 30pt;
+      
+    }
+    .little{
+      width: 100pt;
+      height: 70pt;
+      border-radius: 50%;
+      
+    }
+    .woman{
+      margin-top: 100pt;
+      border-radius: 50pt;
+    }
+    .back{
+      width: 300pt;
+      height: 400pt;
+      border-radius: 50%;
+    }
+    .socials{
+          display: flex;
+          background-color:  rgb(23, 73, 23);
+          gap: 100pt;
+          padding: 20pt 30pt;
+          color: white;
+      }
+      .footer-logo{
+          width: 100pt;
+          height: 60pt;
+          border-radius: 50%;
+          display: flex;
+          justify-content: flex-start;
+
+      }
+      .fruits{
+        border-radius: 50%;
+        
+      }
+      .logo{
+          width: 100pt;
+          height: 60pt;
+          border-radius: 50%;
+      }
+      .fonts{
+          display: flex;
+          justify-content: flex-end;
+          gap: 80pt; 
+          padding-top: 10pt; }
+          .parafoot{
+            font-size: larger;
+          }
+          i{
+              border-radius: 30pt;
+              padding: 6pt;
+          }
+          
+          .facebook{
+              background-color: blue;
+              border-radius: 50%;
+          }
+          .facebook:hover{
+             background: local;
+          }
+          .twitter{
+              background-color: rgb(151, 207, 245);
+              border-radius: 50%;
+          }
+          .twitter:hover{
+              background: local;
+          }
+          .youtube{
+              background-color: red;
+              border-radius: 50%;
+          }
+          .youtube:hover{
+              background: local;
+          }
+          .instagram{
+              background-color: rgb(202, 70, 202);
+              border-radius: 50%;
+          }
+          .instagram:hover{
+              background: local;
+          }
+          .linkedin{
+              background-color: rgb(151,207,245);
+              border-radius: 50%;
+          }
+          .linkedin:hover{
+              background: local;
+          }
