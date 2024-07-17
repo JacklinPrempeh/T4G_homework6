@@ -108,7 +108,7 @@ a{
 .nav{
   display: flex;
   justify-content: flex-end;
-  gap: 100pt;
+  gap: 4em;
   padding: 20pt 30pt;
   border-radius: 30pt;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,10 +121,17 @@ a{
 }
 .first{
 display: flex;
-gap: 50pt;
-width: 300pt;
-height: 300pt;
+/* gap: 50pt; */
+justify-content: space-between;
+width: 100%;
+/* height: 300pt; */
 
+}
+.fruits{
+  display: block;
+  width: 30%;
+  /* border-radius: 50%; */
+  /* height: 200pt; */
 }
 
 .productbutton{
@@ -153,6 +160,11 @@ height: 300pt;
       margin-bottom: 30pt;
       
     }
+
+    .subcontent img{
+      width: 100%;
+    }
+
     .little{
       width: 100pt;
       height: 70pt;
@@ -181,12 +193,12 @@ height: 300pt;
           border-radius: 50%;
           display: flex;
           justify-content: flex-start;
-
       }
+      /* }
       .fruits{
         border-radius: 50%;
         
-      }
+      } */
       .logo{
           width: 100pt;
           height: 60pt;

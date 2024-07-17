@@ -30,28 +30,34 @@ a{
 
 
 .page{
+    width: 100%;
     display: flex;
+    
 }
 video{
     width: 50%;
-    height: 300pt;
+    /* height: 300pt; */
 }
 .box{
     width: 50%;
-height: 300pt;
+/* height: 300pt; */
 background-color: rgba(137, 231, 129, 0.445);
-text-align: center ;
+text-align: justify;
 box-shadow: 4pt 4pt 4pt;
 line-height: 25pt;
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding-left: 10pt;
+padding:10pt;
 font-size: larger;
 text-shadow: 4pt 4pt 10pt black;
 
 }
 .boxlink{
     color: darkorchid;
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.6;
     
 }
 
@@ -80,11 +86,10 @@ text-align: justify;
 line-height: 25pt;
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding: 10pt;
+padding: 30pt;
 font-size: larger;
 background-color: aquamarine;
-width: 600pt;
-margin-right: 300pt;
+margin-bottom: 40pt;
 box-shadow: 4pt 4pt 4pt 5pt;
 
 }
@@ -95,8 +100,10 @@ box-shadow: 4pt 4pt 4pt 5pt;
 }
 .boxlink2{
     color: darkorchid;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.6;
 }
 
 
