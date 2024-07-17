@@ -52,7 +52,7 @@ a{
  
 .img-text-container{
 text-align: center;
-width: 100%;
+/* width: 100%; */
 height: auto;
 position: relative;
 }
@@ -81,10 +81,10 @@ position: relative;
 }
 
 .img1{
-    width: 300pt;
+    /* width: 300pt; */
     height: 200pt;
     border: 2pt solid;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
 }
 
 a{   
@@ -145,11 +145,11 @@ top: 18px;
 border-radius: 50%;
 }
 .div-image{
-    width: 100vw;
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
+    /* justify-content: center; */
+    justify-content: space-between;
 }
 
 .div-image > *{
