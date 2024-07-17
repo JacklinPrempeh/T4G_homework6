@@ -13,7 +13,7 @@ a{
   .nav{
     display: flex;
     justify-content: flex-end;
-    gap: 100px;
+    gap: 4em;
     border-radius: 30pt;
     padding: 20pt 30pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

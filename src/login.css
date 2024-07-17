@@ -8,7 +8,7 @@ h3{
 .nav{
     display: flex;
     justify-content: flex-end;
-    gap: 100px;
+    gap: 4em;
     padding: 20pt 30pt;
     border-radius: 30pt;
     text-shadow: 4px 4px 10px black;
