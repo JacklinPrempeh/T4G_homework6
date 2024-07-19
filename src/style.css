@@ -83,6 +83,7 @@ position: relative;
 .img1{
     /* width: 300pt; */
     height: 200pt;
+    width: 100%;
     border: 2pt solid;
     /* margin: 10px 20px; */
 }
@@ -136,6 +137,9 @@ h2{
     padding: 2pt 3pt;
 }
 
+.photos{
+    width: 30%;
+}
 .main{
 height: 57pt;
 width: 150px;
@@ -152,9 +156,14 @@ border-radius: 50%;
     justify-content: space-between;
 }
 
-.div-image > *{
+/* .div-image > *{
     width: 28%;
-}
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+/* } */
+
+
 
 .newsletters{
     background-image: url(../image/background2.jpg);

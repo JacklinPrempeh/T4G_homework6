@@ -21,7 +21,7 @@ linking.addEventListener('mouseenter',changeColor);
               //first image
 function changeShape(){     // reduces size for 1st image
     let grain=document.getElementById('grains');
-    grain.style.width=("250pt");
+    grain.style.width=("50%");
 }
 let grains=document.getElementById("grains");
 grains.addEventListener("mouseenter",changeShape);
@@ -29,7 +29,7 @@ grains.addEventListener("mouseenter",changeShape);
 
 function size(){     // increases size for 1st image
     let increase=document.getElementById('grains');
-increase.style.width=("300pt");
+increase.style.width=("100%");
 }
 let increase=document.getElementById("grains");
 increase.addEventListener("mouseleave",size);
@@ -38,7 +38,7 @@ increase.addEventListener("mouseleave",size);
            //second image
 function changeSize(){     // reduces size for 2nd image
     let legume=document.getElementById('legume');
-    legume.style.width=("250pt");
+    legume.style.width=("50%");
 }
 let legume=document.getElementById("legume");
 legume.addEventListener("mouseenter",changeSize);
@@ -46,7 +46,7 @@ legume.addEventListener("mouseenter",changeSize);
 
 function sizesecond(){     // increases size for 2nd image
     let increasedsecond=document.getElementById('legume');
-    increasedsecond.style.width=("300pt");
+    increasedsecond.style.width=("100%");
 }
 let decreasesecond=document.getElementById("legume");
 decreasesecond.addEventListener("mouseleave",sizesecond);
@@ -56,7 +56,7 @@ decreasesecond.addEventListener("mouseleave",sizesecond);
    //third image
 function veggies(){  // reduces size for 3rd image
     let vegetable=document.getElementById('vegetables');
-    vegetable.style.width=("250pt");
+    vegetable.style.width=("50%");
 }
 let vegetables=document.getElementById('vegetables');
 vegetables.addEventListener("mouseenter",veggies);
@@ -64,7 +64,7 @@ vegetables.addEventListener("mouseenter",veggies);
 
 function sizethird(){  // increases  size for 3rd image
     let  increasedthird=document.getElementById('vegetables');
-    increasedthird.style.width=("300pt");
+    increasedthird.style.width=("100%");
 }
 let increasedthird=document.getElementById('vegetables');
 increasedthird.addEventListener("mouseleave",sizethird);
@@ -73,7 +73,7 @@ increasedthird.addEventListener("mouseleave",sizethird);
 //fourth image
 function greenies(){  // reduces size for 4th image
     let green=document.getElementById('greens');
-    green.style.width=("250pt");
+    green.style.width=("50%");
 }
 let greens=document.getElementById('greens');
 greens.addEventListener("mouseenter",greenies);
@@ -81,7 +81,7 @@ greens.addEventListener("mouseenter",greenies);
 
 function sizefourth(){  // increases size for 4th image
     let increasedfourth=document.getElementById('greens');
-    increasedfourth.style.width=("300pt");
+    increasedfourth.style.width=("100%");
 }
 let increasedfourth=document.getElementById('greens');
 increasedfourth.addEventListener("mouseleave",sizefourth);
@@ -90,7 +90,7 @@ increasedfourth.addEventListener("mouseleave",sizefourth);
  //fifth image
 function wheaties(){  // reduces size for 5th image
     let wheats=document.getElementById('wheat');
-    wheats.style.width=("250pt")
+    wheats.style.width=("50%")
 }
 let wheat=document.getElementById('wheat');
 wheat.addEventListener("mouseenter",wheaties);
@@ -98,7 +98,7 @@ wheat.addEventListener("mouseenter",wheaties);
 
 function sizefifth(){  // increases size for 5th image
     let increasedfifth=document.getElementById('wheat');
-    increasedfifth.style.width=("300pt")
+    increasedfifth.style.width=("100%")
 }
 let  increasedfifth=document.getElementById('wheat');
 increasedfifth.addEventListener("mouseleave",sizefifth);
@@ -107,7 +107,7 @@ increasedfifth.addEventListener("mouseleave",sizefifth);
 //sixth image
 function barleys(){  // reduces  size for 6th image
     let barLey=document.getElementById('barley');
-    barLey.style.width=("250pt");
+    barLey.style.width=("50%");
 }
 let barley=document.getElementById('barley');
 barley.addEventListener("mouseenter",barleys);
@@ -115,7 +115,7 @@ barley.addEventListener("mouseenter",barleys);
 
 function sizesixth(){  // increases size for 6th image
     let increasedsixth=document.getElementById('barley');
-    increasedsixth.style.width=("300pt");
+    increasedsixth.style.width=("100%");
 }
 let increasedsixth=document.getElementById('barley');
 increasedsixth.addEventListener("mouseleave",sizesixth);
@@ -124,7 +124,7 @@ increasedsixth.addEventListener("mouseleave",sizesixth);
 // seventh image
 function tubers(){  // reduce size for 7th image
     let yam=document.getElementById("tuber");
-    yam.style.width="250pt";
+    yam.style.width="50%";
 }
 let tuber=document.getElementById('tuber');
 tuber.addEventListener("mouseenter",tubers);
@@ -132,7 +132,7 @@ tuber.addEventListener("mouseenter",tubers);
 
 function sizeseventh(){  // increases size for 7th image
     let increasedseventh=document.getElementById('tuber');
-    increasedseventh.style.width=("300pt");
+    increasedseventh.style.width=("100%");
 }
 let increasedseventh=document.getElementById('tuber');
 increasedseventh.addEventListener("mouseleave",sizeseventh);
@@ -141,7 +141,7 @@ increasedseventh.addEventListener("mouseleave",sizeseventh);
 // eight image
 function moreMaize(){  // reduce size for 8th image
     let afrimaize=document.getElementById("maize");
-    afrimaize.style.width="250pt";
+    afrimaize.style.width="50%";
 }
 let maize=document.getElementById('maize');
 maize.addEventListener("mouseenter",moreMaize);
@@ -149,7 +149,7 @@ maize.addEventListener("mouseenter",moreMaize);
 
 function sizeeight(){  // increases size for 8th image
     let increasedeight=document.getElementById('maize');
-    increasedeight.style.width=("300pt");
+    increasedeight.style.width=("100%");
 }
 let increasedeight=document.getElementById('maize');
 increasedeight.addEventListener("mouseleave",sizeeight);
@@ -158,7 +158,7 @@ increasedeight.addEventListener("mouseleave",sizeeight);
 // nineth image
 function moreSpice(){  // reduce size for 9th image
     let afrimaize=document.getElementById("spices");
-    afrimaize.style.width="250pt";
+    afrimaize.style.width="50%";
 }
 let spices=document.getElementById('spices');
 spices.addEventListener("mouseenter",moreSpice);
@@ -166,7 +166,7 @@ spices.addEventListener("mouseenter",moreSpice);
 
 function sizenine(){  // increases size for 9th image
     let increasednine=document.getElementById('spices');
-    increasednine.style.width=("300pt");
+    increasednine.style.width=("100%");
 }
 let increasednine=document.getElementById('spices');
 increasednine.addEventListener("mouseleave",sizenine);
