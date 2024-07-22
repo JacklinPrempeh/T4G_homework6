@@ -32,6 +32,16 @@
 .readmore:hover{
   text-decoration: underline;
 }
+.readless{
+  /* border: none; */
+  color:  rgba(73, 58, 209, 0.849);
+  font-size: 12pt;
+  display: none;
+}
+
+.readless:hover{
+text-decoration: underline;
+}
 #h2{
     font: 3em bolder;
     text-align: center;
@@ -130,6 +140,7 @@ width: 100%;
 .fruits{
   display: block;
   width: 30%;
+  border-radius: 50%;
   /* border-radius: 50%; */
   /* height: 200pt; */
 }

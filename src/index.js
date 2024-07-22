@@ -4,7 +4,7 @@ function changeColor(){
 let name = prompt("What is your name");
 let head=document.getElementById("head");
 head.style.overscrollBehavior= "hover";
-head.innerHTML=`👋🏾👋🏾Hi ${name} Welcome to African Choice`;
+head.innerHTML=`Hello ${name} Welcome to African Choice`;
 let browse=document.getElementById("browse");
 browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa`
 }
@@ -21,7 +21,7 @@ linking.addEventListener('mouseenter',changeColor);
               //first image
 function changeShape(){     // reduces size for 1st image
     let grain=document.getElementById('grains');
-    grain.style.width=("50%");
+    grain.style.width=("80%");
 }
 let grains=document.getElementById("grains");
 grains.addEventListener("mouseenter",changeShape);
@@ -38,7 +38,7 @@ increase.addEventListener("mouseleave",size);
            //second image
 function changeSize(){     // reduces size for 2nd image
     let legume=document.getElementById('legume');
-    legume.style.width=("50%");
+    legume.style.width=("80%");
 }
 let legume=document.getElementById("legume");
 legume.addEventListener("mouseenter",changeSize);
@@ -56,7 +56,7 @@ decreasesecond.addEventListener("mouseleave",sizesecond);
    //third image
 function veggies(){  // reduces size for 3rd image
     let vegetable=document.getElementById('vegetables');
-    vegetable.style.width=("50%");
+    vegetable.style.width=("80%");
 }
 let vegetables=document.getElementById('vegetables');
 vegetables.addEventListener("mouseenter",veggies);
@@ -73,7 +73,7 @@ increasedthird.addEventListener("mouseleave",sizethird);
 //fourth image
 function greenies(){  // reduces size for 4th image
     let green=document.getElementById('greens');
-    green.style.width=("50%");
+    green.style.width=("80%");
 }
 let greens=document.getElementById('greens');
 greens.addEventListener("mouseenter",greenies);
@@ -90,7 +90,7 @@ increasedfourth.addEventListener("mouseleave",sizefourth);
  //fifth image
 function wheaties(){  // reduces size for 5th image
     let wheats=document.getElementById('wheat');
-    wheats.style.width=("50%")
+    wheats.style.width=("80%")
 }
 let wheat=document.getElementById('wheat');
 wheat.addEventListener("mouseenter",wheaties);
@@ -107,7 +107,7 @@ increasedfifth.addEventListener("mouseleave",sizefifth);
 //sixth image
 function barleys(){  // reduces  size for 6th image
     let barLey=document.getElementById('barley');
-    barLey.style.width=("50%");
+    barLey.style.width=("80%");
 }
 let barley=document.getElementById('barley');
 barley.addEventListener("mouseenter",barleys);
@@ -124,7 +124,7 @@ increasedsixth.addEventListener("mouseleave",sizesixth);
 // seventh image
 function tubers(){  // reduce size for 7th image
     let yam=document.getElementById("tuber");
-    yam.style.width="50%";
+    yam.style.width="80%";
 }
 let tuber=document.getElementById('tuber');
 tuber.addEventListener("mouseenter",tubers);
@@ -141,10 +141,10 @@ increasedseventh.addEventListener("mouseleave",sizeseventh);
 // eight image
 function moreMaize(){  // reduce size for 8th image
     let afrimaize=document.getElementById("maize");
-    afrimaize.style.width="50%";
+    afrimaize.style.width="80%";
 }
 let maize=document.getElementById('maize');
-maize.addEventListener("mouseenter",moreMaize);
+maize.addEventListener("click",moreMaize);
 
 
 function sizeeight(){  // increases size for 8th image
@@ -158,7 +158,7 @@ increasedeight.addEventListener("mouseleave",sizeeight);
 // nineth image
 function moreSpice(){  // reduce size for 9th image
     let afrimaize=document.getElementById("spices");
-    afrimaize.style.width="50%";
+    afrimaize.style.width="80%";
 }
 let spices=document.getElementById('spices');
 spices.addEventListener("mouseenter",moreSpice);
