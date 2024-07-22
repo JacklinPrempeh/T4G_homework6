@@ -41,7 +41,7 @@ video{
 .box{
     width: 50%;
 /* height: 300pt; */
-background-color: rgba(137, 231, 129, 0.445);
+background-color: lightgreen;
 text-align: justify;
 box-shadow: 4pt 4pt 4pt;
 line-height: 25pt;
