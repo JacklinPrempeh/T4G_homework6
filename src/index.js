@@ -144,7 +144,7 @@ function moreMaize(){  // reduce size for 8th image
     afrimaize.style.width="80%";
 }
 let maize=document.getElementById('maize');
-maize.addEventListener("click",moreMaize);
+maize.addEventListener("mouseenter",moreMaize);
 
 
 function sizeeight(){  // increases size for 8th image
