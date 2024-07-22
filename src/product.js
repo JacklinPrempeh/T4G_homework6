@@ -361,19 +361,3 @@ let recontenteight=document.getElementById('eightpara'); //declaring a variable
 recontenteight.addEventListener("mouseleave",leaveeight); // adding event listener to variable
 
 
-// //video content
-// function vid(){ //mouse enter changes shape of image
-//   let Haiper=document.getElementById("haiper"); //declaring a variable
-//   Haiper.style.width="400pt"; //styling the variable
-//   Haiper.style.borderRadius="50%"; //styling the variable
-// }
-// let haiper=document.getElementById("haiper"); //declaring a variable
-// haiper.addEventListener("mouseover",vid); // adding event listener to variable
-
-// function vidleave(){ //mouseleave changes image back to original shape
-//   let Haiperleave=document.getElementById("haiper");
-//   Haiperleave.style.width="400pt"; //styling the variable
-//   Haiperleave.style.borderRadius="50pt"; //styling the variable
-// }
-// let haiperleave=document.getElementById("haiper"); //declaring a variable
-// haiperleave.addEventListener("mouseleave",vidleave); // adding event listener to variable

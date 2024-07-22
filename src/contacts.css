@@ -39,31 +39,24 @@ background-color: rgb(38, 155, 73);
     display: flex;
     justify-content: center;
     width: 100%;
-    /* height: 800pt; */
-    /* margin-left: 100pt; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p{
-    margin-left: 30pt;
+    margin-left: 20pt;
     margin-bottom: 50pt;
 }
 .half{
     background-color: antiquewhite;
-    width: 60%;
-    /* height: 400pt; */
+    width: 50%;
 
 }
 .halftwo{
     background-image: url(../image/map2.jpg);
     background-size: cover;
-    /* background-color: beige; */
-    width: 40%;
-    /* height: 400pt; */
+    width: 30%;
     top: 50%;
 left: 50%;
 transform: translate(-5%,0%);
-/* width: 400px; */
-/* background-color: rgba(0,0,0,.8); */
 padding-right: 20px;
 box-sizing: border-box;
 box-shadow: 0 15px 25px rgba(0,0,0,.5);
@@ -72,23 +65,21 @@ color: white;
     
 }
 input{
-    width: 150pt;
+    width: 30%;
     height: 20pt;
-    /* margin-left: 30pt;
-    margin-top: 80pt; */
     margin-bottom: 5pt;
 }
 label{
-    margin-left: 30pt;
+    margin-left: 20pt;
 }
 textarea{
-margin-left: 30pt;
-width: 470pt;
+margin-left: 20pt;
+width: 50%;
 height: 100pt;
 margin-top: 40pt;
 }
 h2{
-margin-left: 30pt;
+margin-left: 20pt;
 }
 .but{
 display: flex;
@@ -106,7 +97,7 @@ gap: 20pt;
 background-color: transparent;
 }
 h4{
-margin-left: 30pt;
+margin-left: 20pt;
 }
 .footer-logo{
     width: 100pt;
