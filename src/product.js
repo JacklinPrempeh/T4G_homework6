@@ -360,4 +360,25 @@ function leaveeight(){  // mouse leave changes background color of eight content
 let recontenteight=document.getElementById('eightpara'); //declaring a variable
 recontenteight.addEventListener("mouseleave",leaveeight); // adding event listener to variable
 
+// function for page heading
+// changes color of page heading when you mouseenter and adds transition duration to it
+function food(){
+  let raw=document.getElementById("rawfood");
+  raw.style.fontSize="5em";
+  raw.style.color="transparent";
+  raw.innerHTML=`Shop with us now`;
+  raw.style.transitionDuration="1000ms";
+}
+let write=document.getElementById("rawfood");
+write.addEventListener("mouseenter",food);
 
+// function for mouseleave
+function Food(){
+  let Raw=document.getElementById("rawfood");
+  Raw.style.fontSize="5em";
+  Raw.style.color="white";
+  Raw.innerHTML=`Shop with us now`;
+  Raw.style.transitionDuration="1000ms";
+}
+let Write=document.getElementById("rawfood");
+Write.addEventListener("mouseleave",Food);

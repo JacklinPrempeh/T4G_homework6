@@ -1,5 +1,5 @@
 // when the user enters the explore button on the homepage 
-//it takes their name 
+//it takes their name and changes the text shown before entering the name
 function changeColor(){
 let name = prompt("What is your name");
 let head=document.getElementById("head");
