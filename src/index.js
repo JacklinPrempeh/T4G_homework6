@@ -5,8 +5,14 @@ let name = prompt("What is your name");
 let head=document.getElementById("head");
 head.style.overscrollBehavior= "hover";
 head.innerHTML=`Hello ${name} Welcome to African Choice`;
+head.style.fontSize="4em";
+head.style.color="white";
+
 let browse=document.getElementById("browse");
-browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa`
+browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa`;
+browse.style.fontSize="4em";
+browse.style.color="white";
+
 }
 
 let linking=document.getElementById("linking");

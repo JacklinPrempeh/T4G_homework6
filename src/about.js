@@ -25,6 +25,7 @@ function size(){ //increases font size when mouseenters
     rotation.style.color="white";
     rotation.style.textShadow="none";
     rotation.style.fontSize="5em";
+    rotation.style.transitionDuration="800ms";
 }
 
 let rotate=document.getElementById("rotate");
@@ -35,6 +36,7 @@ function changesize(){ // returns rotation size to original when mouse leaves
     rotationback.style.color="black";
     rotationback.style.textShadow="4pt 4pt 4pt white";
     rotationback.style.fontSize="3em";
+    rotationback.style.transitionDuration="800ms";
 }
 
 let rotateback=document.getElementById("rotate");
@@ -45,6 +47,7 @@ function width(){ // increases size of logo when mouse enters
     let changewidth=document.getElementById("pic");
     changewidth.style.width="200pt";
     changewidth.style.height="80pt";
+    changewidth.style.transitionDuration="800ms";
 }
 
 
@@ -56,6 +59,7 @@ function returnwidth(){ // returns logo size to original when mouseenters
     let picturedecrease=document.getElementById("pic");
     picturedecrease.style.width="150pt";
     picturedecrease.style.height="57pt";
+    picturedecrease.style.transitionDuration="800ms";
 }
 
 
@@ -68,6 +72,7 @@ picreturn.addEventListener("mouseleave",returnwidth);
  function reduce(){ //mouse enter changes shape of image
    let Haiper=document.getElementById("vid"); //declaring a variable
    Haiper.style.borderRadius="50%"; //styling the variable
+   Haiper.style.transitionDuration="800ms";
 }
  let haiper=document.getElementById("vid"); //declaring a variable
 haiper.addEventListener("mouseover",reduce); // adding event listener to variable
