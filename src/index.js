@@ -4,12 +4,12 @@ function changeColor(){
 let name = prompt("What is your name");
 let head=document.getElementById("head");
 head.style.overscrollBehavior= "hover";
-head.innerHTML=`Hello ${name} Welcome to African Choice`;
+head.innerHTML=`Hello ${name} Welcome to Sankofa Kyema`;
 head.style.fontSize="4em";
 head.style.color="white";
 
 let browse=document.getElementById("browse");
-browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa`;
+browse.innerHTML=`Welcome ${name} Taste the Tradition`;
 browse.style.fontSize="4em";
 browse.style.color="white";
 
